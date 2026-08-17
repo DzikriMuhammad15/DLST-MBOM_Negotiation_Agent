@@ -1,0 +1,113 @@
+{
+ "sumber": "..\\filtering\\output\\bandung_trx.csv",
+ "langkah_1_audit_integritas": {
+  "baris_masuk": 22514,
+  "baris_kembar_penuh": 0,
+  "baris_kembar_kunci_transaksi": 0,
+  "durasi_hilang": 0,
+  "jam_hilang": 0,
+  "baris_dibuang": 0
+ },
+ "langkah_2_pemeriksaan_domain": {
+  "durasi_negatif": 0,
+  "durasi_nol": 283,
+  "durasi_bilangan_bulat_persen": 100.0,
+  "jam_di_luar_0_24": 0,
+  "jam_nol": 0,
+  "baris_dibuang": 0
+ },
+ "langkah_3_dequantisasi": {
+  "benih": 20260811,
+  "durasi_selang_pencatatan_menit": 1.0,
+  "jam_selang_pencatatan_detik": 1.0,
+  "cacah_durasi_0": 283,
+  "cacah_durasi_1": 141,
+  "rasio_cacah_0_terhadap_1": 2.0071,
+  "durasi_nol_setelah_dequantisasi": 0,
+  "durasi_min_setelah": 0.000865,
+  "nilai_kembar_jam_sebelum": 3345,
+  "nilai_kembar_jam_sesudah": 0,
+  "baris_dibuang": 0
+ },
+ "langkah_4_kesahihan_fisik": {
+  "ambang_rasio": 1.25,
+  "rasio_kuantil_50": 0.36,
+  "rasio_kuantil_90": 0.9285,
+  "rasio_kuantil_99": 1.0045,
+  "rasio_maksimum": 29.4414,
+  "melanggar_rasio_1x": 291,
+  "baris_dibuang": 35,
+  "persen_dibuang": 0.1555,
+  "dibuang_durasi_tercatat_0": 24,
+  "dibuang_durasi_tercatat_le5": 31
+ },
+ "langkah_5_pemeriksaan_pencilan": {
+  "kemiringan": 3.8205,
+  "q1": 27.716,
+  "q3": 83.5,
+  "iqr": 55.784,
+  "pagar_tukey": 167.176,
+  "pagar_ekstrem": 250.852,
+  "di_atas_pagar_tukey": 2495,
+  "di_atas_pagar_ekstrem": 1142,
+  "baris_dibuang": 0,
+  "keputusan": "tidak dibuang",
+  "di_atas_120_menit": {
+   "n": 3743,
+   "median_kwh": 18.82,
+   "median_daya_kw": 6.514,
+   "median_rasio_daya": 0.2902
+  },
+  "di_atas_240_menit": {
+   "n": 1261,
+   "median_kwh": 21.337,
+   "median_daya_kw": 3.653,
+   "median_rasio_daya": 0.1575
+  },
+  "di_atas_480_menit": {
+   "n": 275,
+   "median_kwh": 18.169,
+   "median_daya_kw": 1.954,
+   "median_rasio_daya": 0.0896
+  },
+  "di_atas_720_menit": {
+   "n": 45,
+   "median_kwh": 16.5,
+   "median_daya_kw": 1.181,
+   "median_rasio_daya": 0.0539
+  }
+ },
+ "sampel_analisis": {
+  "n": 22479,
+  "n_dibuang_total": 35,
+  "persen_dipertahankan": 99.8445,
+  "durasi_mentah": {
+   "satuan": "menit",
+   "n": 22479,
+   "minimum": 0.010406,
+   "maksimum": 1502.220461,
+   "median": 45.5113,
+   "rerata": 76.2686,
+   "simpangan_baku": 95.1425,
+   "kemiringan": 3.8205
+  },
+  "jam_mentah_menit": {
+   "satuan": "jam dalam sehari (0 sampai 24), resolusi menit dan detik",
+   "n": 22479,
+   "minimum": 0.001415,
+   "maksimum": 23.976314,
+   "median": 14.1846,
+   "rerata": 14.0056,
+   "simpangan_baku": 5.332,
+   "kemiringan": -0.2811
+  }
+ },
+ "gambar": [
+  "01_durasi_pembulatan_menit.png",
+  "02_durasi_dequantisasi.png",
+  "03_kesahihan_fisik.png",
+  "04_sesi_panjang_daya.png",
+  "05_durasi_akhir.png",
+  "06_jam_akhir.png"
+ ]
+}

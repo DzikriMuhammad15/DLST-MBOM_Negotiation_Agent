@@ -1,0 +1,90 @@
+{
+  "time": {
+    "n_days": 10
+  },
+  "training": {
+    "train_every_n_episodes": 1
+  },
+  "seed": 42,
+  "taxi_spec": {
+    "initial_taxi_state": [
+      {
+        "taxi_id": "taxi_0",
+        "position": [
+          -6.9025,
+          107.6041
+        ],
+        "soc": 0.8
+      },
+      {
+        "taxi_id": "taxi_1",
+        "position": [
+          -6.9125,
+          107.6241
+        ],
+        "soc": 0.45
+      }
+    ]
+  },
+  "port_station": {
+    "stations": [
+      {
+        "station_id": "spklu_0",
+        "location": [
+          -6.9075,
+          107.6091
+        ],
+        "ports": [
+          {
+            "port_id": "spklu_0_port_0",
+            "power_kw": 50.0,
+            "base_price_per_kwh": 2500.0
+          },
+          {
+            "port_id": "spklu_0_port_1",
+            "power_kw": 50.0,
+            "base_price_per_kwh": 2500.0
+          },
+          {
+            "port_id": "spklu_0_port_2",
+            "power_kw": 50.0,
+            "base_price_per_kwh": 2500.0
+          }
+        ]
+      },
+      {
+        "station_id": "spklu_1",
+        "location": [
+          -6.9275,
+          107.6391
+        ],
+        "ports": [
+          {
+            "port_id": "spklu_1_port_0",
+            "power_kw": 22.0,
+            "base_price_per_kwh": 3000.0
+          },
+          {
+            "port_id": "spklu_1_port_1",
+            "power_kw": 22.0,
+            "base_price_per_kwh": 3000.0
+          },
+          {
+            "port_id": "spklu_1_port_2",
+            "power_kw": 22.0,
+            "base_price_per_kwh": 3000.0
+          }
+        ]
+      }
+    ]
+  },
+  "negotiation": {
+    "max_action_library": 10,
+    "max_steps": 20
+  },
+  "state_feature": {
+    "encoder_dims": {
+      "K_max": 10
+    }
+  }
+}

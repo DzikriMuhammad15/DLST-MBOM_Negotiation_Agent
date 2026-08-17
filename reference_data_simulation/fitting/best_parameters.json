@@ -1,0 +1,464 @@
+{
+ "keterangan": "Parameter terbaik hasil pendugaan kemungkinan maksimum untuk setiap keluarga distribusi, lokasi dikunci di nol.",
+ "metrik_peringkat": "aic",
+ "durasi_mentah": {
+  "n": 22479,
+  "juara": "fisk",
+  "keluarga": [
+   {
+    "peringkat": 1,
+    "keluarga": "fisk",
+    "label": "Log-Logistik (Fisk)",
+    "status": "berhasil",
+    "nama_parameter": [
+     "c",
+     "skala"
+    ],
+    "parameter": [
+     1.7429053713498712,
+     0.0,
+     47.0631672698281
+    ],
+    "lokasi_dikunci": 0.0,
+    "aic": 237252.47729698627,
+    "bic": 237268.51797062432,
+    "ks": 0.035902019546856956,
+    "cvm": 8.7686236824509,
+    "ad": 60.76429573634232,
+    "wasserstein": 13.516143698119507,
+    "tvd": 0.10153375169657496
+   },
+   {
+    "peringkat": 2,
+    "keluarga": "gamma",
+    "label": "Gamma",
+    "status": "berhasil",
+    "nama_parameter": [
+     "a",
+     "skala"
+    ],
+    "parameter": [
+     1.0963274361166242,
+     0.0,
+     69.56733149589589
+    ],
+    "lokasi_dikunci": 0.0,
+    "aic": 239704.02944074728,
+    "bic": 239720.07011438534,
+    "ks": 0.10156348566054785,
+    "cvm": 73.7441509718974,
+    "ad": 378.0123110297427,
+    "wasserstein": 14.133823151004023,
+    "tvd": 0.17522531367774832
+   },
+   {
+    "peringkat": 3,
+    "keluarga": "chi2",
+    "label": "Chi-Kuadrat",
+    "status": "berhasil",
+    "nama_parameter": [
+     "df",
+     "skala"
+    ],
+    "parameter": [
+     2.192653798125731,
+     0.0,
+     34.7836996941644
+    ],
+    "lokasi_dikunci": 0.0,
+    "aic": 239704.02944075648,
+    "bic": 239720.07011439453,
+    "ks": 0.10156362429113286,
+    "cvm": 73.74435169700851,
+    "ad": 378.0130900420809,
+    "wasserstein": 14.133823165891908,
+    "tvd": 0.1752254022884013
+   },
+   {
+    "peringkat": 4,
+    "keluarga": "expon",
+    "label": "Eksponensial",
+    "status": "berhasil",
+    "nama_parameter": [
+     "skala"
+    ],
+    "parameter": [
+     0.0,
+     76.26857417637082
+    ],
+    "lokasi_dikunci": 0.0,
+    "aic": 239819.7052098096,
+    "bic": 239827.72554662862,
+    "ks": 0.09381008733729335,
+    "cvm": 73.41307124014901,
+    "ad": 399.8716248562014,
+    "wasserstein": 13.60388955642777,
+    "tvd": 0.18454361627489207
+   },
+   {
+    "peringkat": 5,
+    "keluarga": "weibull_min",
+    "label": "Weibull",
+    "status": "berhasil",
+    "nama_parameter": [
+     "c",
+     "skala"
+    ],
+    "parameter": [
+     0.9943521652416969,
+     0.0,
+     76.05769260493636
+    ],
+    "lokasi_dikunci": 0.0,
+    "aic": 239820.29422481064,
+    "bic": 239836.3348984487,
+    "ks": 0.09260169707820376,
+    "cvm": 73.39708280069954,
+    "ad": 402.2450113467712,
+    "wasserstein": 13.50349181713936,
+    "tvd": 0.1852296178930039
+   },
+   {
+    "peringkat": 6,
+    "keluarga": "lognorm",
+    "label": "Lognormal",
+    "status": "berhasil",
+    "nama_parameter": [
+     "s",
+     "skala"
+    ],
+    "parameter": [
+     1.1096077473866348,
+     0.0,
+     45.29803564008099
+    ],
+    "lokasi_dikunci": 0.0,
+    "aic": 239909.2740407043,
+    "bic": 239925.31471434236,
+    "ks": 0.08104496945396303,
+    "cvm": 41.27521516224989,
+    "ad": 245.42954983462187,
+    "wasserstein": 11.25706267807051,
+    "tvd": 0.14496061553855677
+   },
+   {
+    "peringkat": 7,
+    "keluarga": "halfnorm",
+    "label": "Half-Normal",
+    "status": "berhasil",
+    "nama_parameter": [
+     "skala"
+    ],
+    "parameter": [
+     0.0,
+     121.93683620600595
+    ],
+    "lokasi_dikunci": 0.0,
+    "aic": 248588.02335790696,
+    "bic": 248596.043694726,
+    "ks": 0.26056402726473954,
+    "cvm": 569.0811761171342,
+    "ad": 2570.3880816660967,
+    "wasserstein": 32.41148004513757,
+    "tvd": 0.2840197379465843
+   },
+   {
+    "peringkat": 8,
+    "keluarga": "invgauss",
+    "label": "Inverse Gaussian (Wald)",
+    "status": "berhasil",
+    "nama_parameter": [
+     "mu",
+     "skala"
+    ],
+    "parameter": [
+     5.591995614086823,
+     0.0,
+     13.638883046374767
+    ],
+    "lokasi_dikunci": 0.0,
+    "aic": 262215.76486612356,
+    "bic": 262231.8055397616,
+    "ks": 0.33171121856494745,
+    "cvm": 888.4268130178116,
+    "ad": 4007.4529082322006,
+    "wasserstein": 32.25810514021143,
+    "tvd": 0.35167397514860166
+   },
+   {
+    "peringkat": 9,
+    "keluarga": "rayleigh",
+    "label": "Rayleigh",
+    "status": "berhasil",
+    "nama_parameter": [
+     "skala"
+    ],
+    "parameter": [
+     0.0,
+     86.22236375770014
+    ],
+    "lokasi_dikunci": 0.0,
+    "aic": 274272.57251307904,
+    "bic": 274280.5928498981,
+    "ks": 0.4190446134102839,
+    "cvm": 1688.8575991485586,
+    "ad": 10508.857578713716,
+    "wasserstein": 48.61275050001357,
+    "tvd": 0.45526450280811287
+   },
+   {
+    "peringkat": 10,
+    "keluarga": "pareto",
+    "label": "Pareto",
+    "status": "berhasil",
+    "nama_parameter": [
+     "b",
+     "skala"
+    ],
+    "parameter": [
+     0.11935085272803933,
+     0.0,
+     0.0104057730657126
+    ],
+    "lokasi_dikunci": 0.0,
+    "aic": 311965.3792733716,
+    "bic": 311981.41994700965,
+    "ks": 0.4978853096806513,
+    "cvm": 1714.3116318510897,
+    "ad": 7966.902658459479,
+    "wasserstein": 2.2358481081083063e+33,
+    "tvd": 0.7637880607817592
+   }
+  ]
+ },
+ "jam_mentah_menit": {
+  "n": 22479,
+  "juara": "weibull_min",
+  "keluarga": [
+   {
+    "peringkat": 1,
+    "keluarga": "weibull_min",
+    "label": "Weibull",
+    "status": "berhasil",
+    "nama_parameter": [
+     "c",
+     "skala"
+    ],
+    "parameter": [
+     2.7642396174815826,
+     0.0,
+     15.575928920350131
+    ],
+    "lokasi_dikunci": 0.0,
+    "aic": 141388.28968827333,
+    "bic": 141404.3303619114,
+    "ks": 0.0424819870014137,
+    "cvm": 16.263675921849977,
+    "ad": 155.9715362264833,
+    "wasserstein": 0.5871584631326705,
+    "tvd": 0.11241259732841541
+   },
+   {
+    "peringkat": 2,
+    "keluarga": "rayleigh",
+    "label": "Rayleigh",
+    "status": "berhasil",
+    "nama_parameter": [
+     "skala"
+    ],
+    "parameter": [
+     0.0,
+     10.596813238082955
+    ],
+    "lokasi_dikunci": 0.0,
+    "aic": 144366.33905301266,
+    "bic": 144374.3593898317,
+    "ks": 0.11929478866437976,
+    "cvm": 154.74784418368978,
+    "ad": 872.2531665539464,
+    "wasserstein": 1.8188780061722132,
+    "tvd": 0.21116046341984615
+   },
+   {
+    "peringkat": 3,
+    "keluarga": "gamma",
+    "label": "Gamma",
+    "status": "berhasil",
+    "nama_parameter": [
+     "a",
+     "skala"
+    ],
+    "parameter": [
+     4.021867730549601,
+     0.0,
+     3.4823523193521884
+    ],
+    "lokasi_dikunci": 0.0,
+    "aic": 147212.3224616653,
+    "bic": 147228.36313530334,
+    "ks": 0.09048721961784167,
+    "cvm": 85.43545465986736,
+    "ad": 588.7687594283925,
+    "wasserstein": 1.6073947055184992,
+    "tvd": 0.20115957822285352
+   },
+   {
+    "peringkat": 4,
+    "keluarga": "chi2",
+    "label": "Chi-Kuadrat",
+    "status": "berhasil",
+    "nama_parameter": [
+     "df",
+     "skala"
+    ],
+    "parameter": [
+     8.04370607735744,
+     0.0,
+     1.7411846837445681
+    ],
+    "lokasi_dikunci": 0.0,
+    "aic": 147212.32246196712,
+    "bic": 147228.36313560518,
+    "ks": 0.090488011435784,
+    "cvm": 85.43475172227897,
+    "ad": 588.7672466972108,
+    "wasserstein": 1.6073988212135872,
+    "tvd": 0.2011597160266218
+   },
+   {
+    "peringkat": 5,
+    "keluarga": "fisk",
+    "label": "Log-Logistik (Fisk)",
+    "status": "berhasil",
+    "nama_parameter": [
+     "c",
+     "skala"
+    ],
+    "parameter": [
+     3.570498541718801,
+     0.0,
+     13.487315277419764
+    ],
+    "lokasi_dikunci": 0.0,
+    "aic": 148050.45918532513,
+    "bic": 148066.4998589632,
+    "ks": 0.1143969196869018,
+    "cvm": 37.79069714773879,
+    "ad": 417.80178112708745,
+    "wasserstein": 1.8961267114915752,
+    "tvd": 0.19141038132500743
+   },
+   {
+    "peringkat": 6,
+    "keluarga": "halfnorm",
+    "label": "Half-Normal",
+    "status": "berhasil",
+    "nama_parameter": [
+     "skala"
+    ],
+    "parameter": [
+     0.0,
+     14.98615699923167
+    ],
+    "lokasi_dikunci": 0.0,
+    "aic": 154339.1391746833,
+    "bic": 154347.15951150234,
+    "ks": 0.276245195641895,
+    "cvm": 656.3621393149541,
+    "ad": 3176.2025074453086,
+    "wasserstein": 4.080198445923709,
+    "tvd": 0.3851368715371953
+   },
+   {
+    "peringkat": 7,
+    "keluarga": "lognorm",
+    "label": "Lognormal",
+    "status": "berhasil",
+    "nama_parameter": [
+     "s",
+     "skala"
+    ],
+    "parameter": [
+     0.6622308506774566,
+     0.0,
+     12.30509238887552
+    ],
+    "lokasi_dikunci": 0.0,
+    "aic": 158112.77358307698,
+    "bic": 158128.81425671504,
+    "ks": 0.1576732872008042,
+    "cvm": 215.6992211144514,
+    "ad": 1358.753966520926,
+    "wasserstein": 3.6770552425384615,
+    "tvd": 0.31727017486185605
+   },
+   {
+    "peringkat": 8,
+    "keluarga": "expon",
+    "label": "Eksponensial",
+    "status": "berhasil",
+    "nama_parameter": [
+     "skala"
+    ],
+    "parameter": [
+     0.0,
+     14.005560419607123
+    ],
+    "lokasi_dikunci": 0.0,
+    "aic": 163624.59197585314,
+    "bic": 163632.61231267216,
+    "ks": 0.30793220383225584,
+    "cvm": 756.6466127486491,
+    "ad": 3738.1781320817754,
+    "wasserstein": 6.411194289110087,
+    "tvd": 0.48757210865478273
+   },
+   {
+    "peringkat": 9,
+    "keluarga": "invgauss",
+    "label": "Inverse Gaussian (Wald)",
+    "status": "berhasil",
+    "nama_parameter": [
+     "mu",
+     "skala"
+    ],
+    "parameter": [
+     1.6927908579365354,
+     0.0,
+     8.273650790316477
+    ],
+    "lokasi_dikunci": 0.0,
+    "aic": 185564.56591806287,
+    "bic": 185580.60659170093,
+    "ks": 0.3796980527314929,
+    "cvm": 1218.0339652268106,
+    "ad": 5627.62369423563,
+    "wasserstein": 7.978331595565174,
+    "tvd": 0.5479641972843029
+   },
+   {
+    "peringkat": 10,
+    "keluarga": "pareto",
+    "label": "Pareto",
+    "status": "berhasil",
+    "nama_parameter": [
+     "b",
+     "skala"
+    ],
+    "parameter": [
+     0.11024659494842977,
+     0.0,
+     0.0014150905802644
+    ],
+    "lokasi_dikunci": 0.0,
+    "aic": 256941.16583895168,
+    "bic": 256957.20651258974,
+    "ks": 0.5492412725061728,
+    "cvm": 2000.3024034272967,
+    "ad": 9192.105804126015,
+    "wasserstein": 6.142878187214217e+35,
+    "tvd": 0.8908604555082509
+   }
+  ]
+ }
+}

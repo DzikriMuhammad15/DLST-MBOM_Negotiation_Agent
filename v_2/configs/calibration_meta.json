@@ -1,0 +1,44 @@
+{
+ "base_config": "eksperiment_real_case_v2\\configs\\run2.json",
+ "ralat_2026_07_08": {
+  "fare_price_per_km": 6300.0,
+  "sumber_tarif": "harga riil Bluebird taksi listrik BYD (informasi peneliti)",
+  "seed_per_run": {
+   "1": 7,
+   "2": 123,
+   "3": 42
+  },
+  "catatan_seed": "run1=7 (dipertahankan, data existing), run2=123, run3=42 \u2014 semuanya RUN_SEEDS pre-registered desain v2, bukan screening hasil (accept-instan terbukti reproducible lintas seed, jadi 42 tak 'tercemar')"
+ },
+ "fixed_mechanism": {
+  "1b_reward_scaling_c6": "kode global (Episode.utility_min/max + Trainer._stamp_reward_bounds + RewardShaper.compute_step_reward)",
+  "2c_2d_full_assignment_menu": "kode global (simulation/bridge/action_library.py build_action_library)",
+  "2a_2b_kalibrasi_config": {
+   "mean_time_weight_tomtom": 0.473792,
+   "fare_price_per_km": 6300.0,
+   "speed_kmh": 30.0,
+   "REF_earn": 100000.0,
+   "lost_per_cycle_norm": 0.447733,
+   "tau_cycles": 48.0,
+   "g_max": 21.4912,
+   "w_unassigned": 1.0,
+   "rumus": "lost/cycle = mean_tw*price_per_km*speed*0.5/REF_earn; g_max = tau*lost/cycle"
+  }
+ },
+ "sumber_time_weight": "simulation_data\\sumber_data_traffic_kendaraanUmum\\time_weight_24.json",
+ "varian_30hari": {
+  "n_days": 30,
+  "occupancy_target": 0.225,
+  "initial_booking_count": 2293,
+  "catatan": "horizon 10x utk uji kelaparan-data hybrid; okupansi disamakan 22,5% (N dikalibrasi ulang); g_max/tau tetap."
+ },
+ "varian_okup50": {
+  "occupancy_target": 0.5,
+  "n_ports": 14,
+  "n_days": 3,
+  "E_capped_duration_hours": 0.98914,
+  "initial_booking_count": 510,
+  "max_tries_pemasangan": 3,
+  "rumus": "N = round(0.50 * n_ports * n_days * 24 / E[durasi_jam_tercap])"
+ }
+}

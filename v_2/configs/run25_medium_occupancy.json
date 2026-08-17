@@ -1,0 +1,820 @@
+{
+ "time": {
+  "n_days": 3
+ },
+ "seed": 2618232,
+ "training": {
+  "train_every_n_episodes": 1
+ },
+ "negotiation": {
+  "max_action_library": 30,
+  "max_steps": 15,
+  "price_levels": [
+   1973.44,
+   2466.8,
+   3453.52,
+   4000.0
+  ]
+ },
+ "state_feature": {
+  "encoder_dims": {
+   "K_max": 30,
+   "N_max": 50,
+   "P_max": 14,
+   "A_max": 18
+  }
+ },
+ "taxi_spec": {
+  "battery_capacity_kwh": 61.0,
+  "consumption_kwh_per_km": 0.2,
+  "speed_kmh": 30.0,
+  "initial_taxi_state": [
+   {
+    "taxi_id": "taxi_0",
+    "position": [
+     -6.885257,
+     107.633918
+    ],
+    "soc": 0.763
+   },
+   {
+    "taxi_id": "taxi_1",
+    "position": [
+     -6.90718,
+     107.572738
+    ],
+    "soc": 0.408
+   },
+   {
+    "taxi_id": "taxi_2",
+    "position": [
+     -6.922754,
+     107.550621
+    ],
+    "soc": 0.485
+   },
+   {
+    "taxi_id": "taxi_3",
+    "position": [
+     -6.974357,
+     107.702999
+    ],
+    "soc": 0.448
+   },
+   {
+    "taxi_id": "taxi_4",
+    "position": [
+     -6.905762,
+     107.696661
+    ],
+    "soc": 0.842
+   },
+   {
+    "taxi_id": "taxi_5",
+    "position": [
+     -6.883412,
+     107.601696
+    ],
+    "soc": 0.84
+   },
+   {
+    "taxi_id": "taxi_6",
+    "position": [
+     -6.878373,
+     107.685916
+    ],
+    "soc": 0.521
+   },
+   {
+    "taxi_id": "taxi_7",
+    "position": [
+     -6.842152,
+     107.577554
+    ],
+    "soc": 0.797
+   },
+   {
+    "taxi_id": "taxi_8",
+    "position": [
+     -6.876981,
+     107.67432
+    ],
+    "soc": 0.755
+   },
+   {
+    "taxi_id": "taxi_9",
+    "position": [
+     -6.907576,
+     107.692809
+    ],
+    "soc": 0.563
+   },
+   {
+    "taxi_id": "taxi_10",
+    "position": [
+     -6.978292,
+     107.699045
+    ],
+    "soc": 0.712
+   },
+   {
+    "taxi_id": "taxi_11",
+    "position": [
+     -6.957513,
+     107.676971
+    ],
+    "soc": 0.553
+   },
+   {
+    "taxi_id": "taxi_12",
+    "position": [
+     -6.866449,
+     107.637991
+    ],
+    "soc": 0.693
+   },
+   {
+    "taxi_id": "taxi_13",
+    "position": [
+     -6.860396,
+     107.655902
+    ],
+    "soc": 0.805
+   },
+   {
+    "taxi_id": "taxi_14",
+    "position": [
+     -6.972017,
+     107.608681
+    ],
+    "soc": 0.756
+   },
+   {
+    "taxi_id": "taxi_15",
+    "position": [
+     -6.904619,
+     107.611604
+    ],
+    "soc": 0.603
+   },
+   {
+    "taxi_id": "taxi_16",
+    "position": [
+     -6.973544,
+     107.552021
+    ],
+    "soc": 0.745
+   },
+   {
+    "taxi_id": "taxi_17",
+    "position": [
+     -6.977503,
+     107.660023
+    ],
+    "soc": 0.46
+   },
+   {
+    "taxi_id": "taxi_18",
+    "position": [
+     -6.90812,
+     107.554823
+    ],
+    "soc": 0.415
+   },
+   {
+    "taxi_id": "taxi_19",
+    "position": [
+     -6.936406,
+     107.629333
+    ],
+    "soc": 0.433
+   },
+   {
+    "taxi_id": "taxi_20",
+    "position": [
+     -6.870103,
+     107.667634
+    ],
+    "soc": 0.801
+   },
+   {
+    "taxi_id": "taxi_21",
+    "position": [
+     -6.97881,
+     107.609318
+    ],
+    "soc": 0.695
+   },
+   {
+    "taxi_id": "taxi_22",
+    "position": [
+     -6.870238,
+     107.693853
+    ],
+    "soc": 0.613
+   },
+   {
+    "taxi_id": "taxi_23",
+    "position": [
+     -6.954621,
+     107.640732
+    ],
+    "soc": 0.371
+   },
+   {
+    "taxi_id": "taxi_24",
+    "position": [
+     -6.87896,
+     107.575785
+    ],
+    "soc": 0.449
+   },
+   {
+    "taxi_id": "taxi_25",
+    "position": [
+     -6.927409,
+     107.708647
+    ],
+    "soc": 0.401
+   },
+   {
+    "taxi_id": "taxi_26",
+    "position": [
+     -6.976044,
+     107.689736
+    ],
+    "soc": 0.417
+   },
+   {
+    "taxi_id": "taxi_27",
+    "position": [
+     -6.851232,
+     107.553318
+    ],
+    "soc": 0.49
+   },
+   {
+    "taxi_id": "taxi_28",
+    "position": [
+     -6.880973,
+     107.667171
+    ],
+    "soc": 0.758
+   },
+   {
+    "taxi_id": "taxi_29",
+    "position": [
+     -6.948431,
+     107.614675
+    ],
+    "soc": 0.404
+   },
+   {
+    "taxi_id": "taxi_30",
+    "position": [
+     -6.859603,
+     107.605112
+    ],
+    "soc": 0.606
+   },
+   {
+    "taxi_id": "taxi_31",
+    "position": [
+     -6.869298,
+     107.69831
+    ],
+    "soc": 0.735
+   },
+   {
+    "taxi_id": "taxi_32",
+    "position": [
+     -6.911933,
+     107.676431
+    ],
+    "soc": 0.456
+   },
+   {
+    "taxi_id": "taxi_33",
+    "position": [
+     -6.862547,
+     107.679321
+    ],
+    "soc": 0.835
+   },
+   {
+    "taxi_id": "taxi_34",
+    "position": [
+     -6.960876,
+     107.622505
+    ],
+    "soc": 0.744
+   },
+   {
+    "taxi_id": "taxi_35",
+    "position": [
+     -6.970525,
+     107.707754
+    ],
+    "soc": 0.484
+   },
+   {
+    "taxi_id": "taxi_36",
+    "position": [
+     -6.936715,
+     107.609165
+    ],
+    "soc": 0.708
+   },
+   {
+    "taxi_id": "taxi_37",
+    "position": [
+     -6.846778,
+     107.649356
+    ],
+    "soc": 0.719
+   },
+   {
+    "taxi_id": "taxi_38",
+    "position": [
+     -6.841337,
+     107.668186
+    ],
+    "soc": 0.513
+   },
+   {
+    "taxi_id": "taxi_39",
+    "position": [
+     -6.917917,
+     107.694088
+    ],
+    "soc": 0.587
+   },
+   {
+    "taxi_id": "taxi_40",
+    "position": [
+     -6.862773,
+     107.609051
+    ],
+    "soc": 0.554
+   },
+   {
+    "taxi_id": "taxi_41",
+    "position": [
+     -6.936169,
+     107.651442
+    ],
+    "soc": 0.356
+   },
+   {
+    "taxi_id": "taxi_42",
+    "position": [
+     -6.850778,
+     107.63907
+    ],
+    "soc": 0.404
+   },
+   {
+    "taxi_id": "taxi_43",
+    "position": [
+     -6.880879,
+     107.691697
+    ],
+    "soc": 0.455
+   },
+   {
+    "taxi_id": "taxi_44",
+    "position": [
+     -6.936621,
+     107.630617
+    ],
+    "soc": 0.423
+   },
+   {
+    "taxi_id": "taxi_45",
+    "position": [
+     -6.979067,
+     107.674299
+    ],
+    "soc": 0.512
+   },
+   {
+    "taxi_id": "taxi_46",
+    "position": [
+     -6.9767,
+     107.639719
+    ],
+    "soc": 0.417
+   },
+   {
+    "taxi_id": "taxi_47",
+    "position": [
+     -6.904438,
+     107.714617
+    ],
+    "soc": 0.435
+   },
+   {
+    "taxi_id": "taxi_48",
+    "position": [
+     -6.954008,
+     107.667081
+    ],
+    "soc": 0.679
+   },
+   {
+    "taxi_id": "taxi_49",
+    "position": [
+     -6.968271,
+     107.625509
+    ],
+    "soc": 0.677
+   }
+  ]
+ },
+ "port_station": {
+  "stations": [
+   {
+    "station_id": "spklu_hotel_novena",
+    "location": [
+     -6.840745,
+     107.597386
+    ],
+    "ports": [
+     {
+      "port_id": "spklu_hotel_novena_p0",
+      "power_kw": 22.0,
+      "base_price_per_kwh": 2466.8
+     }
+    ]
+   },
+   {
+    "station_id": "spklu_icon_plus_bandung",
+    "location": [
+     -6.908162,
+     107.631116
+    ],
+    "ports": [
+     {
+      "port_id": "spklu_icon_plus_bandung_p0",
+      "power_kw": 22.0,
+      "base_price_per_kwh": 2466.8
+     }
+    ]
+   },
+   {
+    "station_id": "spklu_teuan_cafe_resto",
+    "location": [
+     -6.8146673,
+     107.6249528
+    ],
+    "ports": [
+     {
+      "port_id": "spklu_teuan_cafe_resto_p0",
+      "power_kw": 22.0,
+      "base_price_per_kwh": 2466.8
+     }
+    ]
+   },
+   {
+    "station_id": "spklu_uid_jawa_barat",
+    "location": [
+     -6.920729,
+     107.6084388
+    ],
+    "ports": [
+     {
+      "port_id": "spklu_uid_jawa_barat_p0",
+      "power_kw": 22.0,
+      "base_price_per_kwh": 2466.8
+     }
+    ]
+   },
+   {
+    "station_id": "spklu_ulp_banjaran",
+    "location": [
+     -7.035417,
+     107.593316
+    ],
+    "ports": [
+     {
+      "port_id": "spklu_ulp_banjaran_p0",
+      "power_kw": 22.0,
+      "base_price_per_kwh": 2466.8
+     }
+    ]
+   },
+   {
+    "station_id": "spklu_ulp_cijawura",
+    "location": [
+     -6.954014,
+     107.640576
+    ],
+    "ports": [
+     {
+      "port_id": "spklu_ulp_cijawura_p0",
+      "power_kw": 22.0,
+      "base_price_per_kwh": 2466.8
+     }
+    ]
+   },
+   {
+    "station_id": "spklu_ulp_cimahi_selatan",
+    "location": [
+     -6.89858,
+     107.554142
+    ],
+    "ports": [
+     {
+      "port_id": "spklu_ulp_cimahi_selatan_p0",
+      "power_kw": 22.0,
+      "base_price_per_kwh": 2466.8
+     }
+    ]
+   },
+   {
+    "station_id": "spklu_ulp_kopo",
+    "location": [
+     -6.933869,
+     107.57143
+    ],
+    "ports": [
+     {
+      "port_id": "spklu_ulp_kopo_p0",
+      "power_kw": 22.0,
+      "base_price_per_kwh": 2466.8
+     }
+    ]
+   },
+   {
+    "station_id": "spklu_ulp_lembang",
+    "location": [
+     -6.8183273,
+     107.6220045
+    ],
+    "ports": [
+     {
+      "port_id": "spklu_ulp_lembang_p0",
+      "power_kw": 22.0,
+      "base_price_per_kwh": 2466.8
+     }
+    ]
+   },
+   {
+    "station_id": "spklu_ulp_prima_cibabat",
+    "location": [
+     -6.8757411,
+     107.5448649
+    ],
+    "ports": [
+     {
+      "port_id": "spklu_ulp_prima_cibabat_p0",
+      "power_kw": 22.0,
+      "base_price_per_kwh": 2466.8
+     }
+    ]
+   },
+   {
+    "station_id": "spklu_ulp_rancaekek",
+    "location": [
+     -6.95895,
+     107.76474
+    ],
+    "ports": [
+     {
+      "port_id": "spklu_ulp_rancaekek_p0",
+      "power_kw": 22.0,
+      "base_price_per_kwh": 2466.8
+     }
+    ]
+   },
+   {
+    "station_id": "spklu_ulp_ujungberung",
+    "location": [
+     -6.913079,
+     107.694909
+    ],
+    "ports": [
+     {
+      "port_id": "spklu_ulp_ujungberung_p0",
+      "power_kw": 22.0,
+      "base_price_per_kwh": 2466.8
+     }
+    ]
+   },
+   {
+    "station_id": "spklu_geowisata_inn",
+    "location": [
+     -6.917532,
+     107.578611
+    ],
+    "ports": [
+     {
+      "port_id": "spklu_geowisata_inn_p0",
+      "power_kw": 40.0,
+      "base_price_per_kwh": 2466.8
+     },
+     {
+      "port_id": "spklu_geowisata_inn_p1",
+      "power_kw": 40.0,
+      "base_price_per_kwh": 2466.8
+     }
+    ]
+   }
+  ]
+ },
+ "marking_area_order": {
+  "areas": [
+   {
+    "area_id": "area_00",
+    "center": [
+     -6.8812,
+     107.58
+    ]
+   },
+   {
+    "area_id": "area_01",
+    "center": [
+     -6.8938,
+     107.6052
+    ]
+   },
+   {
+    "area_id": "area_02",
+    "center": [
+     -6.8895,
+     107.5957
+    ]
+   },
+   {
+    "area_id": "area_03",
+    "center": [
+     -6.9112,
+     107.6097
+    ]
+   },
+   {
+    "area_id": "area_04",
+    "center": [
+     -6.96,
+     107.717
+    ]
+   },
+   {
+    "area_id": "area_05",
+    "center": [
+     -6.9276,
+     107.6364
+    ]
+   },
+   {
+    "area_id": "area_06",
+    "center": [
+     -6.9175,
+     107.603
+    ]
+   },
+   {
+    "area_id": "area_07",
+    "center": [
+     -6.985,
+     107.74
+    ]
+   },
+   {
+    "area_id": "area_08",
+    "center": [
+     -6.9333,
+     107.5742
+    ]
+   },
+   {
+    "area_id": "area_09",
+    "center": [
+     -6.5569,
+     108.2314
+    ]
+   },
+   {
+    "area_id": "area_10",
+    "center": [
+     -6.884,
+     107.6186
+    ]
+   },
+   {
+    "area_id": "area_11",
+    "center": [
+     -6.8855,
+     107.5779
+    ]
+   },
+   {
+    "area_id": "area_12",
+    "center": [
+     -6.8858,
+     107.579
+    ]
+   },
+   {
+    "area_id": "area_13",
+    "center": [
+     -6.8655,
+     107.475
+    ]
+   },
+   {
+    "area_id": "area_14",
+    "center": [
+     -6.918,
+     107.615
+    ]
+   },
+   {
+    "area_id": "area_15",
+    "center": [
+     -6.9205,
+     107.6162
+    ]
+   },
+   {
+    "area_id": "area_16",
+    "center": [
+     -6.8247,
+     107.6133
+    ]
+   },
+   {
+    "area_id": "area_17",
+    "center": [
+     -6.818,
+     107.6169
+    ]
+   }
+  ],
+  "order_min": 0,
+  "order_max": 50,
+  "time_weight": {
+   "0": 0.0242,
+   "1": 0.0029,
+   "2": 0.0,
+   "3": 0.0,
+   "4": 0.0,
+   "5": 0.0296,
+   "6": 0.3379,
+   "7": 0.4484,
+   "8": 0.4332,
+   "9": 0.5018,
+   "10": 0.6034,
+   "11": 0.7097,
+   "12": 0.7535,
+   "13": 0.893,
+   "14": 0.9403,
+   "15": 0.9138,
+   "16": 0.9685,
+   "17": 1.0,
+   "18": 0.7932,
+   "19": 0.66,
+   "20": 0.541,
+   "21": 0.44,
+   "22": 0.2672,
+   "23": 0.1094
+  },
+  "order_claim_mode": "lock"
+ },
+ "fare": {
+  "fare_mode": "PURE",
+  "price_per_km": 6300.0
+ },
+ "app_user_booking": {
+  "initial_booking_count": 185,
+  "fallback": {
+   "allowed_slot_shift_range": [
+    1,
+    4
+   ],
+   "compensation_per_kwh_range": [
+    986.72,
+    986.72
+   ]
+  }
+ },
+ "agent": {
+  "fleet": {
+   "hyperparameters": {
+    "mbom_M": 2,
+    "rollout_max_steps": null
+   }
+  },
+  "spklu": {
+   "hyperparameters": {
+    "rollout_max_steps": null
+   }
+  }
+ },
+ "ufun": {
+  "shape": {
+   "g_max": 21.4912,
+   "tau": 48.0
+  }
+ }
+}

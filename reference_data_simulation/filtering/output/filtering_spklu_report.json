@@ -1,0 +1,245 @@
+{
+ "sumber": "real_data/MASTER SPKLU PER 14 MAR 2025_.xlsx",
+ "sheet": "SPKLU AKTIF PER MESIN (2)",
+ "aturan_filter": {
+  "IS_ACTIVE_SPKLU": "Y",
+  "lat": [
+   -7.05,
+   -6.8
+  ],
+  "lon": [
+   107.5,
+   107.78
+  ]
+ },
+ "baris_mesin_dibaca": 3586,
+ "stasiun_nasional": 2431,
+ "stasiun_bandung_lolos": 77,
+ "verifikasi_vs_berkas_simulasi": {
+  "referensi_tersedia": true,
+  "n_referensi": 77,
+  "n_hasil": 77,
+  "id_sama_persis": true,
+  "hanya_di_hasil": [],
+  "hanya_di_referensi": [],
+  "stasiun_beda_isi": [],
+  "IDENTIK": true
+ },
+ "catatan_konektor": {
+  "kolom_dipakai": "JML_CONNECTOR_SPKLU (total per stasiun) — dipertahankan agar identik dengan berkas simulasi",
+  "kolom_alternatif": "JML_CONNECTOR_CHARGER (per chargebox)",
+  "stasiun_yang_hitungan_portnya_berbeda": 30,
+  "rincian": [
+   {
+    "id": "17",
+    "nama": "SPKLU PLN UP3 BANDUNG",
+    "n_chargebox": 2,
+    "port_via_JML_CONNECTOR_SPKLU": 16,
+    "port_via_JML_CONNECTOR_CHARGER": 5
+   },
+   {
+    "id": "34",
+    "nama": "SPKLU PLN ULP BANDUNG UTARA",
+    "n_chargebox": 4,
+    "port_via_JML_CONNECTOR_SPKLU": 36,
+    "port_via_JML_CONNECTOR_CHARGER": 8
+   },
+   {
+    "id": "142",
+    "nama": "SPKLU PLN ULP BANDUNG BARAT",
+    "n_chargebox": 1,
+    "port_via_JML_CONNECTOR_SPKLU": 3,
+    "port_via_JML_CONNECTOR_CHARGER": 1
+   },
+   {
+    "id": "145",
+    "nama": "SPKLU PLN ULP BANDUNG TIMUR",
+    "n_chargebox": 3,
+    "port_via_JML_CONNECTOR_SPKLU": 12,
+    "port_via_JML_CONNECTOR_CHARGER": 4
+   },
+   {
+    "id": "181",
+    "nama": "SPKLU PLN UP3 CIMAHI",
+    "n_chargebox": 2,
+    "port_via_JML_CONNECTOR_SPKLU": 4,
+    "port_via_JML_CONNECTOR_CHARGER": 2
+   },
+   {
+    "id": "187",
+    "nama": "SPKLU PLN UP3 MAJALAYA",
+    "n_chargebox": 2,
+    "port_via_JML_CONNECTOR_SPKLU": 4,
+    "port_via_JML_CONNECTOR_CHARGER": 2
+   },
+   {
+    "id": "313",
+    "nama": "SPKLU PLN ICON HUB (BRAGA HERITAGE)",
+    "n_chargebox": 3,
+    "port_via_JML_CONNECTOR_SPKLU": 12,
+    "port_via_JML_CONNECTOR_CHARGER": 4
+   },
+   {
+    "id": "376",
+    "nama": "SPKLU PLN UIP JBT",
+    "n_chargebox": 2,
+    "port_via_JML_CONNECTOR_SPKLU": 6,
+    "port_via_JML_CONNECTOR_CHARGER": 3
+   },
+   {
+    "id": "526",
+    "nama": "SPKLU REST AREA KM 147 A RUAS PADALARANG - CILEUNYI",
+    "n_chargebox": 1,
+    "port_via_JML_CONNECTOR_SPKLU": 4,
+    "port_via_JML_CONNECTOR_CHARGER": 2
+   },
+   {
+    "id": "538",
+    "nama": "SPKLU REST AREA KM 149 B RUAS PADALARANG - CILEUNYI",
+    "n_chargebox": 3,
+    "port_via_JML_CONNECTOR_SPKLU": 12,
+    "port_via_JML_CONNECTOR_CHARGER": 4
+   },
+   {
+    "id": "808",
+    "nama": "SPKLU BALAI KOTA BANDUNG",
+    "n_chargebox": 2,
+    "port_via_JML_CONNECTOR_SPKLU": 4,
+    "port_via_JML_CONNECTOR_CHARGER": 2
+   },
+   {
+    "id": "810",
+    "nama": "SPKLU GOLF JATINANGOR",
+    "n_chargebox": 2,
+    "port_via_JML_CONNECTOR_SPKLU": 4,
+    "port_via_JML_CONNECTOR_CHARGER": 2
+   },
+   {
+    "id": "979",
+    "nama": "SPKLU ONE STOP CHARGING STATION SURAPATI",
+    "n_chargebox": 5,
+    "port_via_JML_CONNECTOR_SPKLU": 50,
+    "port_via_JML_CONNECTOR_CHARGER": 8
+   },
+   {
+    "id": "1103",
+    "nama": "SPKLU PLN MALAGA RESTO",
+    "n_chargebox": 2,
+    "port_via_JML_CONNECTOR_SPKLU": 6,
+    "port_via_JML_CONNECTOR_CHARGER": 3
+   },
+   {
+    "id": "1247",
+    "nama": "SPKLU PLN TRANSMART CIMAHI",
+    "n_chargebox": 2,
+    "port_via_JML_CONNECTOR_SPKLU": 4,
+    "port_via_JML_CONNECTOR_CHARGER": 2
+   },
+   {
+    "id": "1285",
+    "nama": "SPKLU PLN APARTEMEN GATEWAY PASTEUR",
+    "n_chargebox": 2,
+    "port_via_JML_CONNECTOR_SPKLU": 4,
+    "port_via_JML_CONNECTOR_CHARGER": 2
+   },
+   {
+    "id": "1448",
+    "nama": "SPKLU PLN TRANS STUDIO MALL BANDUNG",
+    "n_chargebox": 5,
+    "port_via_JML_CONNECTOR_SPKLU": 35,
+    "port_via_JML_CONNECTOR_CHARGER": 7
+   },
+   {
+    "id": "10009",
+    "nama": "Hyundai Soekarno Hatta (Khusus Kendaraan Hyundai)",
+    "n_chargebox": 2,
+    "port_via_JML_CONNECTOR_SPKLU": 4,
+    "port_via_JML_CONNECTOR_CHARGER": 2
+   },
+   {
+    "id": "10031",
+    "nama": "Hyundai Rancaekek (Khusus Kendaraan Hyundai)",
+    "n_chargebox": 2,
+    "port_via_JML_CONNECTOR_SPKLU": 4,
+    "port_via_JML_CONNECTOR_CHARGER": 2
+   },
+   {
+    "id": "10035",
+    "nama": "Hyundai Leuwipanjang (Khusus Kendaraan Hyundai)",
+    "n_chargebox": 2,
+    "port_via_JML_CONNECTOR_SPKLU": 4,
+    "port_via_JML_CONNECTOR_CHARGER": 2
+   },
+   {
+    "id": "10157",
+    "nama": "AUTO 2000 Soekarno Hatta Bandung (Khusus Toyota & Lexus)",
+    "n_chargebox": 2,
+    "port_via_JML_CONNECTOR_SPKLU": 4,
+    "port_via_JML_CONNECTOR_CHARGER": 2
+   },
+   {
+    "id": "10170",
+    "nama": "(VOLTRON) Plaza Summarecon Bandung",
+    "n_chargebox": 2,
+    "port_via_JML_CONNECTOR_SPKLU": 4,
+    "port_via_JML_CONNECTOR_CHARGER": 2
+   },
+   {
+    "id": "10185",
+    "nama": "(VOLTRON) 23 Paskal Mall",
+    "n_chargebox": 2,
+    "port_via_JML_CONNECTOR_SPKLU": 4,
+    "port_via_JML_CONNECTOR_CHARGER": 2
+   },
+   {
+    "id": "10442",
+    "nama": "(PARKING+) Paris Van Java",
+    "n_chargebox": 3,
+    "port_via_JML_CONNECTOR_SPKLU": 9,
+    "port_via_JML_CONNECTOR_CHARGER": 3
+   },
+   {
+    "id": "10492",
+    "nama": "(VOLTRON) Summarecon Mall Bandung",
+    "n_chargebox": 2,
+    "port_via_JML_CONNECTOR_SPKLU": 4,
+    "port_via_JML_CONNECTOR_CHARGER": 2
+   },
+   {
+    "id": "10610",
+    "nama": "(STARVO) The Gaia Hotel Bandung",
+    "n_chargebox": 2,
+    "port_via_JML_CONNECTOR_SPKLU": 4,
+    "port_via_JML_CONNECTOR_CHARGER": 2
+   },
+   {
+    "id": "10663",
+    "nama": "(VOLTRON) Plaza Summarecon",
+    "n_chargebox": 2,
+    "port_via_JML_CONNECTOR_SPKLU": 4,
+    "port_via_JML_CONNECTOR_CHARGER": 2
+   },
+   {
+    "id": "10677",
+    "nama": "(VOLTRON) 23 Paskal Mall",
+    "n_chargebox": 2,
+    "port_via_JML_CONNECTOR_SPKLU": 4,
+    "port_via_JML_CONNECTOR_CHARGER": 2
+   },
+   {
+    "id": "10747",
+    "nama": "(VOLTRON) MCD Pasir Koja",
+    "n_chargebox": 2,
+    "port_via_JML_CONNECTOR_SPKLU": 4,
+    "port_via_JML_CONNECTOR_CHARGER": 2
+   },
+   {
+    "id": "10800",
+    "nama": "(DayaGreen) Hotel Crowne Plaza Bandung",
+    "n_chargebox": 2,
+    "port_via_JML_CONNECTOR_SPKLU": 4,
+    "port_via_JML_CONNECTOR_CHARGER": 2
+   }
+  ]
+ }
+}

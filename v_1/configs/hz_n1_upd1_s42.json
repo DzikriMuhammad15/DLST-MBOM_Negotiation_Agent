@@ -1,0 +1,18 @@
+{
+  "time": {
+    "n_days": 1
+  },
+  "training": {
+    "train_every_n_episodes": 1
+  },
+  "seed": 42,
+  "negotiation": {
+    "max_action_library": 10,
+    "max_steps": 20
+  },
+  "state_feature": {
+    "encoder_dims": {
+      "K_max": 10
+    }
+  }
+}

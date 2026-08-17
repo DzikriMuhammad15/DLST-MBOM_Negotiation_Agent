@@ -1,0 +1,1203 @@
+[
+ {
+  "id": "17",
+  "nama": "SPKLU PLN UP3 BANDUNG",
+  "lat": -6.948829,
+  "lon": 107.611796,
+  "chargeboxes": [
+   {
+    "kw": "50 kW",
+    "connectors": 8,
+    "id": "DCCT_UP3_BANDUNG"
+   },
+   {
+    "kw": "200 kW",
+    "connectors": 8,
+    "id": "DCCT_UP3_BDG"
+   }
+  ]
+ },
+ {
+  "id": "34",
+  "nama": "SPKLU PLN ULP BANDUNG UTARA",
+  "lat": -6.8790905,
+  "lon": 107.5972058,
+  "chargeboxes": [
+   {
+    "kw": "22 kW",
+    "connectors": 9,
+    "id": "ACMAX_ULP_BANDUNG_UTARA"
+   },
+   {
+    "kw": "25 kW",
+    "connectors": 9,
+    "id": "DCWB_ULP_BANDUNG_UTARA"
+   },
+   {
+    "kw": "30 kW",
+    "connectors": 9,
+    "id": "PHG_ULP_BANDUNG_UTARA"
+   },
+   {
+    "kw": "60 kW",
+    "connectors": 9,
+    "id": "PPP_BDG_UTARA"
+   }
+  ]
+ },
+ {
+  "id": "139",
+  "nama": "SPKLU PLN UID JAWA BARAT",
+  "lat": -6.920729,
+  "lon": 107.6084388,
+  "chargeboxes": [
+   {
+    "kw": "22 kW",
+    "connectors": 1,
+    "id": "ACMAX_UID_JABAR"
+   }
+  ]
+ },
+ {
+  "id": "142",
+  "nama": "SPKLU PLN ULP BANDUNG BARAT",
+  "lat": -6.9087559,
+  "lon": 107.5788952,
+  "chargeboxes": [
+   {
+    "kw": "22 kW",
+    "connectors": 3,
+    "id": "CSE_ULP_BDGBRT"
+   }
+  ]
+ },
+ {
+  "id": "143",
+  "nama": "SPKLU PLN ULP KOPO",
+  "lat": -6.933869,
+  "lon": 107.57143,
+  "chargeboxes": [
+   {
+    "kw": "22 kW",
+    "connectors": 1,
+    "id": "ACMAX_ULP_KOPO"
+   }
+  ]
+ },
+ {
+  "id": "144",
+  "nama": "SPKLU PLN ULP CIJAWURA",
+  "lat": -6.954014,
+  "lon": 107.640576,
+  "chargeboxes": [
+   {
+    "kw": "22 kW",
+    "connectors": 1,
+    "id": "ACMAX_ULP_CJWR"
+   }
+  ]
+ },
+ {
+  "id": "145",
+  "nama": "SPKLU PLN ULP BANDUNG TIMUR",
+  "lat": -6.898929,
+  "lon": 107.641115,
+  "chargeboxes": [
+   {
+    "kw": "22 kW",
+    "connectors": 4,
+    "id": "ACMAX_ULP_BDT"
+   },
+   {
+    "kw": "22 kW",
+    "connectors": 4,
+    "id": "CSE_ULP_BDT"
+   },
+   {
+    "kw": "60 kW",
+    "connectors": 4,
+    "id": "CSE_ULP_BDT_60"
+   }
+  ]
+ },
+ {
+  "id": "146",
+  "nama": "SPKLU PLN ULP UJUNGBERUNG",
+  "lat": -6.913079,
+  "lon": 107.694909,
+  "chargeboxes": [
+   {
+    "kw": "22 kW",
+    "connectors": 1,
+    "id": "ACMAX_ULP_UJB"
+   }
+  ]
+ },
+ {
+  "id": "181",
+  "nama": "SPKLU PLN UP3 CIMAHI",
+  "lat": -6.870555,
+  "lon": 107.536452,
+  "chargeboxes": [
+   {
+    "kw": "22 kW",
+    "connectors": 2,
+    "id": "ACMAX_UP3_CMH"
+   },
+   {
+    "kw": "30 kW",
+    "connectors": 2,
+    "id": "HVT_UP3_CMI"
+   }
+  ]
+ },
+ {
+  "id": "182",
+  "nama": "SPKLU PLN ULP CIMAHI SELATAN",
+  "lat": -6.89858,
+  "lon": 107.554142,
+  "chargeboxes": [
+   {
+    "kw": "22 kW",
+    "connectors": 1,
+    "id": "ACMAX_ULP_CMH_SL"
+   }
+  ]
+ },
+ {
+  "id": "187",
+  "nama": "SPKLU PLN UP3 MAJALAYA",
+  "lat": -7.006074,
+  "lon": 107.62553,
+  "chargeboxes": [
+   {
+    "kw": "22 kW",
+    "connectors": 2,
+    "id": "ACMAX_UP3_MJA"
+   },
+   {
+    "kw": "22 kW",
+    "connectors": 2,
+    "id": "HVT_UP3_MAJALAYA"
+   }
+  ]
+ },
+ {
+  "id": "202",
+  "nama": "SPKLU PLN ULP PRIMA CIBABAT",
+  "lat": -6.8757411,
+  "lon": 107.5448649,
+  "chargeboxes": [
+   {
+    "kw": "22 kW",
+    "connectors": 1,
+    "id": "ACMAX_ULP_PRM_CBB"
+   }
+  ]
+ },
+ {
+  "id": "210",
+  "nama": "SPKLU GEDUNG BUDAYA SABILULUNGAN",
+  "lat": -7.020754,
+  "lon": 107.5296088,
+  "chargeboxes": [
+   {
+    "kw": "22 kW",
+    "connectors": 1,
+    "id": "ACMAX_GD_SBLLN"
+   }
+  ]
+ },
+ {
+  "id": "224",
+  "nama": "SPKLU PLN ULP LEMBANG",
+  "lat": -6.8183273,
+  "lon": 107.6220045,
+  "chargeboxes": [
+   {
+    "kw": "22 kW",
+    "connectors": 1,
+    "id": "ACMAX_ULP_LMBG"
+   }
+  ]
+ },
+ {
+  "id": "233",
+  "nama": "SPKLU PLN ULP BANJARAN",
+  "lat": -7.035417,
+  "lon": 107.593316,
+  "chargeboxes": [
+   {
+    "kw": "22 kW",
+    "connectors": 1,
+    "id": "ACMAX_ULP_BJRN"
+   }
+  ]
+ },
+ {
+  "id": "249",
+  "nama": "SPKLU POLDA JABAR",
+  "lat": -6.937148,
+  "lon": 107.704017,
+  "chargeboxes": [
+   {
+    "kw": "7 kW",
+    "connectors": 1,
+    "id": "ACMP_POLDA_JABAR"
+   }
+  ]
+ },
+ {
+  "id": "313",
+  "nama": "SPKLU PLN ICON HUB (BRAGA HERITAGE)",
+  "lat": -6.9200825,
+  "lon": 107.6093717,
+  "chargeboxes": [
+   {
+    "kw": "22 kW",
+    "connectors": 4,
+    "id": "ACMAX_BRG_HTGE"
+   },
+   {
+    "kw": "7 kW",
+    "connectors": 4,
+    "id": "ACMP_BRG_HTGE"
+   },
+   {
+    "kw": "200 kW",
+    "connectors": 4,
+    "id": "DCCT_BRG_HTGE"
+   }
+  ]
+ },
+ {
+  "id": "376",
+  "nama": "SPKLU PLN UIP JBT",
+  "lat": -6.9382411,
+  "lon": 107.6279407,
+  "chargeboxes": [
+   {
+    "kw": "22 kW",
+    "connectors": 3,
+    "id": "ACMAX_UIP_JBT"
+   },
+   {
+    "kw": "25 kW",
+    "connectors": 3,
+    "id": "DCWB_UIP_JBT"
+   }
+  ]
+ },
+ {
+  "id": "377",
+  "nama": "SPKLU Hotel Emaki Jatinangor",
+  "lat": -6.93719,
+  "lon": 107.75916,
+  "chargeboxes": [
+   {
+    "kw": "22 kW",
+    "connectors": 1,
+    "id": "PPP_EMAKI_JATINANGOR"
+   }
+  ]
+ },
+ {
+  "id": "443",
+  "nama": "SPKLU PENDOPO SRI AGUNG JAYA MARGAASIH",
+  "lat": -6.996109,
+  "lon": 107.531811,
+  "chargeboxes": [
+   {
+    "kw": "7 kW",
+    "connectors": 1,
+    "id": "ACMP_SRIAGUNG"
+   }
+  ]
+ },
+ {
+  "id": "526",
+  "nama": "SPKLU REST AREA KM 147 A RUAS PADALARANG - CILEUNYI",
+  "lat": -6.96723,
+  "lon": 107.678882,
+  "chargeboxes": [
+   {
+    "kw": "50 kW",
+    "connectors": 4,
+    "id": "DCWB50_RA_KM147A"
+   }
+  ]
+ },
+ {
+  "id": "538",
+  "nama": "SPKLU REST AREA KM 149 B RUAS PADALARANG - CILEUNYI",
+  "lat": -6.968339,
+  "lon": 107.701279,
+  "chargeboxes": [
+   {
+    "kw": "50 kW",
+    "connectors": 4,
+    "id": "ABB_RA_KM149B"
+   },
+   {
+    "kw": "22 kW",
+    "connectors": 4,
+    "id": "ACMAX_RA_KM149B"
+   },
+   {
+    "kw": "25 kW",
+    "connectors": 4,
+    "id": "DCWB_RA_KM149B"
+   }
+  ]
+ },
+ {
+  "id": "593",
+  "nama": "SPKLU REST AREA KM 125 B RUAS PADALARANG - CILEUNYI",
+  "lat": -6.885319,
+  "lon": 107.519383,
+  "chargeboxes": [
+   {
+    "kw": "120 kW",
+    "connectors": 2,
+    "id": "EVP_RA_KM125B"
+   }
+  ]
+ },
+ {
+  "id": "608",
+  "nama": "SPKLU (ARISTA POWER) BYD BANDUNG",
+  "lat": -6.938397,
+  "lon": 107.675859,
+  "chargeboxes": [
+   {
+    "kw": "60 kW",
+    "connectors": 2,
+    "id": "EVP_BYD_BDG_SOETA"
+   }
+  ]
+ },
+ {
+  "id": "675",
+  "nama": "SPKLU PLN GEOWISATA INN",
+  "lat": -6.917532,
+  "lon": 107.578611,
+  "chargeboxes": [
+   {
+    "kw": "40 kW",
+    "connectors": 2,
+    "id": "PPP_GWST"
+   }
+  ]
+ },
+ {
+  "id": "808",
+  "nama": "SPKLU BALAI KOTA BANDUNG",
+  "lat": -6.91151,
+  "lon": 107.60969,
+  "chargeboxes": [
+   {
+    "kw": "22 kW",
+    "connectors": 2,
+    "id": "ACMAX_BALKOT_BANDUNG"
+   },
+   {
+    "kw": "25 kW",
+    "connectors": 2,
+    "id": "DCWB_BALKOT_BANDUNG"
+   }
+  ]
+ },
+ {
+  "id": "810",
+  "nama": "SPKLU GOLF JATINANGOR",
+  "lat": -6.91148,
+  "lon": 107.76274,
+  "chargeboxes": [
+   {
+    "kw": "22 kW",
+    "connectors": 2,
+    "id": "CC_GOLF_JTGR"
+   },
+   {
+    "kw": "22 kW",
+    "connectors": 2,
+    "id": "PPP_GOLF_JATINANGOR"
+   }
+  ]
+ },
+ {
+  "id": "979",
+  "nama": "SPKLU ONE STOP CHARGING STATION SURAPATI",
+  "lat": -6.8987487,
+  "lon": 107.6213486,
+  "chargeboxes": [
+   {
+    "kw": "120 kW",
+    "connectors": 10,
+    "id": "CC_ONESTOP_SURAPATI"
+   },
+   {
+    "kw": "22 kW",
+    "connectors": 10,
+    "id": "CSE_ONESTOP_CS1"
+   },
+   {
+    "kw": "22 kW",
+    "connectors": 10,
+    "id": "CSE_ONESTOP_CS3"
+   },
+   {
+    "kw": "22 kW",
+    "connectors": 10,
+    "id": "CSE_ONESTOP_CS4"
+   },
+   {
+    "kw": "60 kW",
+    "connectors": 10,
+    "id": "PPP_ONESTOP_CS"
+   }
+  ]
+ },
+ {
+  "id": "1103",
+  "nama": "SPKLU PLN MALAGA RESTO",
+  "lat": -6.8853388,
+  "lon": 107.6127386,
+  "chargeboxes": [
+   {
+    "kw": "22 kW",
+    "connectors": 3,
+    "id": "ACMAX_MALAGA"
+   },
+   {
+    "kw": "25 kW",
+    "connectors": 3,
+    "id": "DCWB_MALAGA"
+   }
+  ]
+ },
+ {
+  "id": "1242",
+  "nama": "SPKLU PLN HOTEL NOVENA",
+  "lat": -6.840745,
+  "lon": 107.597386,
+  "chargeboxes": [
+   {
+    "kw": "22 kW",
+    "connectors": 1,
+    "id": "HVT_NOVENA"
+   }
+  ]
+ },
+ {
+  "id": "1247",
+  "nama": "SPKLU PLN TRANSMART CIMAHI",
+  "lat": -6.869391,
+  "lon": 107.53321,
+  "chargeboxes": [
+   {
+    "kw": "22 kW",
+    "connectors": 2,
+    "id": "HVT_TRANS_CMI1"
+   },
+   {
+    "kw": "22 kW",
+    "connectors": 2,
+    "id": "HVT_TRANS_CMI2"
+   }
+  ]
+ },
+ {
+  "id": "1285",
+  "nama": "SPKLU PLN APARTEMEN GATEWAY PASTEUR",
+  "lat": -6.889389,
+  "lon": 107.566734,
+  "chargeboxes": [
+   {
+    "kw": "30 kW",
+    "connectors": 2,
+    "id": "CC_GTW_PSTR01"
+   },
+   {
+    "kw": "22 kW",
+    "connectors": 2,
+    "id": "CC_GTW_PSTR02"
+   }
+  ]
+ },
+ {
+  "id": "1448",
+  "nama": "SPKLU PLN TRANS STUDIO MALL BANDUNG",
+  "lat": -6.9259769,
+  "lon": 107.6362086,
+  "chargeboxes": [
+   {
+    "kw": "22 kW",
+    "connectors": 7,
+    "id": "HVT_TSM_BDG01"
+   },
+   {
+    "kw": "22 kW",
+    "connectors": 7,
+    "id": "HVT_TSM_BDG02"
+   },
+   {
+    "kw": "22 kW",
+    "connectors": 7,
+    "id": "HVT_TSM_BDG03"
+   },
+   {
+    "kw": "60 kW",
+    "connectors": 7,
+    "id": "HVT_TSM_BDG_DC01"
+   },
+   {
+    "kw": "60 kW",
+    "connectors": 7,
+    "id": "HVT_TSM_BDG_DC02"
+   }
+  ]
+ },
+ {
+  "id": "1455",
+  "nama": "SPKLU PLN TEUAN CAFE & RESTO",
+  "lat": -6.8146673,
+  "lon": 107.6249528,
+  "chargeboxes": [
+   {
+    "kw": "22 kW",
+    "connectors": 1,
+    "id": "HVT_TEUAN_CAFE"
+   }
+  ]
+ },
+ {
+  "id": "1509",
+  "nama": "SPKLU PLN ULP RANCAEKEK",
+  "lat": -6.95895,
+  "lon": 107.76474,
+  "chargeboxes": [
+   {
+    "kw": "22 kW",
+    "connectors": 1,
+    "id": "HVT_ULP_RNCK"
+   }
+  ]
+ },
+ {
+  "id": "1568",
+  "nama": "SPKLU PLN ICON PLUS BANDUNG",
+  "lat": -6.908162,
+  "lon": 107.631116,
+  "chargeboxes": [
+   {
+    "kw": "22 kW",
+    "connectors": 1,
+    "id": "CC_ICON_BDG"
+   }
+  ]
+ },
+ {
+  "id": "10009",
+  "nama": "Hyundai Soekarno Hatta (Khusus Kendaraan Hyundai)",
+  "lat": -6.943416,
+  "lon": 107.647302,
+  "chargeboxes": [
+   {
+    "kw": "7,4 kW",
+    "connectors": 2,
+    "id": "HYUNDAI_SOEKARNO_HATTA_1"
+   },
+   {
+    "kw": "7,4 kW",
+    "connectors": 2,
+    "id": "HYUNDAI_SOEKARNO_HATTA_2"
+   }
+  ]
+ },
+ {
+  "id": "10010",
+  "nama": "Hyundai Cihampelas (Khusus Kendaraan Hyundai)",
+  "lat": -6.906724,
+  "lon": 107.604597,
+  "chargeboxes": [
+   {
+    "kw": "7,4 kW",
+    "connectors": 1,
+    "id": "HYUNDAI_CIHAMPELAS_1"
+   }
+  ]
+ },
+ {
+  "id": "10031",
+  "nama": "Hyundai Rancaekek (Khusus Kendaraan Hyundai)",
+  "lat": -6.952862,
+  "lon": 107.765118,
+  "chargeboxes": [
+   {
+    "kw": "7,4 kW",
+    "connectors": 2,
+    "id": "HYUNDAI_RANCAEKEK_1"
+   },
+   {
+    "kw": "7,4 kW",
+    "connectors": 2,
+    "id": "HYUNDAI_RANCAEKEK_2"
+   }
+  ]
+ },
+ {
+  "id": "10035",
+  "nama": "Hyundai Leuwipanjang (Khusus Kendaraan Hyundai)",
+  "lat": -6.94738,
+  "lon": 107.5988,
+  "chargeboxes": [
+   {
+    "kw": "7,4 kW",
+    "connectors": 2,
+    "id": "HYUNDAI_LEUWIPANJANG_1"
+   },
+   {
+    "kw": "7,4 kW",
+    "connectors": 2,
+    "id": "HYUNDAI_LEUWIPANJANG_2"
+   }
+  ]
+ },
+ {
+  "id": "10050",
+  "nama": "Hyundai Pasteur (Khusus Kendaraan Hyundai)",
+  "lat": -6.89264,
+  "lon": 107.58196,
+  "chargeboxes": [
+   {
+    "kw": "7,4 kW",
+    "connectors": 1,
+    "id": "HYUNDAI_PASTEUR_1"
+   }
+  ]
+ },
+ {
+  "id": "10078",
+  "nama": "Hyundai Ahmad Yani (Khusus Kendaraan Hyundai)",
+  "lat": -6.915017,
+  "lon": 107.63091,
+  "chargeboxes": [
+   {
+    "kw": "7,4 kW",
+    "connectors": 1,
+    "id": "HYUNDAI_AHMAD_YANI_1"
+   }
+  ]
+ },
+ {
+  "id": "10135",
+  "nama": "Plaza Toyota Bandung (Khusus Toyota & Lexus)",
+  "lat": -6.93197,
+  "lon": 107.626151,
+  "chargeboxes": [
+   {
+    "kw": "22 kW",
+    "connectors": 1,
+    "id": "TOYOTA_BANDUNG_1"
+   }
+  ]
+ },
+ {
+  "id": "10139",
+  "nama": "Wijaya Toyota Dago (Khusus Toyota & Lexus)",
+  "lat": -6.890736,
+  "lon": 107.612987,
+  "chargeboxes": [
+   {
+    "kw": "22 kW",
+    "connectors": 1,
+    "id": "TOYOTA_DAGO_1"
+   }
+  ]
+ },
+ {
+  "id": "10157",
+  "nama": "AUTO 2000 Soekarno Hatta Bandung (Khusus Toyota & Lexus)",
+  "lat": -6.937138,
+  "lon": 107.580013,
+  "chargeboxes": [
+   {
+    "kw": "7 kW",
+    "connectors": 2,
+    "id": "TOYOTA_SOETTA_BDG_1"
+   },
+   {
+    "kw": "22 kW",
+    "connectors": 2,
+    "id": "TOYOTA_SOETTA_BDG_2"
+   }
+  ]
+ },
+ {
+  "id": "10170",
+  "nama": "(VOLTRON) Plaza Summarecon Bandung",
+  "lat": -6.955515,
+  "lon": 107.693805,
+  "chargeboxes": [
+   {
+    "kw": "7 kW",
+    "connectors": 2,
+    "id": "VOLTRON_PLAZA_SUMMARECON_1"
+   },
+   {
+    "kw": "22 kW",
+    "connectors": 2,
+    "id": "VOLTRON_PLAZA_SUMMARECON_2"
+   }
+  ]
+ },
+ {
+  "id": "10171",
+  "nama": "(VOLTRON) Cluster Emily Summarecon",
+  "lat": -6.963607,
+  "lon": 107.700395,
+  "chargeboxes": [
+   {
+    "kw": "7 kW",
+    "connectors": 1,
+    "id": "VOLTRON_EMILY_SUMMARECON_1"
+   }
+  ]
+ },
+ {
+  "id": "10185",
+  "nama": "(VOLTRON) 23 Paskal Mall",
+  "lat": -6.915233,
+  "lon": 107.594562,
+  "chargeboxes": [
+   {
+    "kw": "7 kW",
+    "connectors": 2,
+    "id": "VOLTRON_23_PASKALMALL_1"
+   },
+   {
+    "kw": "22 kW",
+    "connectors": 2,
+    "id": "VOLTRON_23_PASKALMALL_2"
+   }
+  ]
+ },
+ {
+  "id": "10224",
+  "nama": "(WULING) Arista PH Mustofa",
+  "lat": -6.901742,
+  "lon": 107.648495,
+  "chargeboxes": [
+   {
+    "kw": "7 kW",
+    "connectors": 1,
+    "id": "WULING_ARISTA_PH_MUSTOFA"
+   }
+  ]
+ },
+ {
+  "id": "10231",
+  "nama": "(WULING) Arista Soekarno Hatta",
+  "lat": -6.938076,
+  "lon": 107.668264,
+  "chargeboxes": [
+   {
+    "kw": "7 kW",
+    "connectors": 1,
+    "id": "WULING_ARISTA_SOEKARNO_HATTA"
+   }
+  ]
+ },
+ {
+  "id": "10257",
+  "nama": "(WULING) Arista Rancaekek",
+  "lat": -6.95017,
+  "lon": 107.762963,
+  "chargeboxes": [
+   {
+    "kw": "7 kW",
+    "connectors": 1,
+    "id": "WULING_ARISTA_RANCAEKEK"
+   }
+  ]
+ },
+ {
+  "id": "10259",
+  "nama": "(WULING) Arista Cimahi",
+  "lat": -6.868065,
+  "lon": 107.525231,
+  "chargeboxes": [
+   {
+    "kw": "7 kW",
+    "connectors": 1,
+    "id": "WULING_ARISTA_CIMAHI"
+   }
+  ]
+ },
+ {
+  "id": "10299",
+  "nama": "(WULING) Kumala BKR",
+  "lat": -6.932714,
+  "lon": 107.617821,
+  "chargeboxes": [
+   {
+    "kw": "7 kW",
+    "connectors": 1,
+    "id": "WULING_KUMALA_BKR"
+   }
+  ]
+ },
+ {
+  "id": "10333",
+  "nama": "(WULING) Maju Motor Setiabudi",
+  "lat": -6.8823550000000004,
+  "lon": 107.601427,
+  "chargeboxes": [
+   {
+    "kw": "7 kW",
+    "connectors": 1,
+    "id": "WULING_MM_SETIABUDI"
+   }
+  ]
+ },
+ {
+  "id": "10411",
+  "nama": "Tunas Toyota Kiara Condong",
+  "lat": -6.944307,
+  "lon": 107.642468,
+  "chargeboxes": [
+   {
+    "kw": "22 kW",
+    "connectors": 1,
+    "id": "ACMAX_TUNAS_KIARA_CONDONG"
+   }
+  ]
+ },
+ {
+  "id": "10413",
+  "nama": "Wijaya Toyota A. Yani",
+  "lat": -6.912792,
+  "lon": 107.6356,
+  "chargeboxes": [
+   {
+    "kw": "22 kW",
+    "connectors": 1,
+    "id": "ACMAX_WIJAYA_TOYOTA_AYANI"
+   }
+  ]
+ },
+ {
+  "id": "10414",
+  "nama": "Wijaya Toyota Padalarang",
+  "lat": -6.863818,
+  "lon": 107.510875,
+  "chargeboxes": [
+   {
+    "kw": "22 kW",
+    "connectors": 1,
+    "id": "ACMAX_WIJAYA_TOYOTA_PADALARANG"
+   }
+  ]
+ },
+ {
+  "id": "10442",
+  "nama": "(PARKING+) Paris Van Java",
+  "lat": -6.888577,
+  "lon": 107.596507,
+  "chargeboxes": [
+   {
+    "kw": "22 kW",
+    "connectors": 3,
+    "id": "PARKING+PARIS_VAN_JAVA_1"
+   },
+   {
+    "kw": "22 kW",
+    "connectors": 3,
+    "id": "PARKING+PARIS_VAN_JAVA_2"
+   },
+   {
+    "kw": "22 kW",
+    "connectors": 3,
+    "id": "PARKING+PARIS_VAN_JAVA_3"
+   }
+  ]
+ },
+ {
+  "id": "10461",
+  "nama": "Wisma HSBC Bandung",
+  "lat": -6.9219,
+  "lon": 107.6119,
+  "chargeboxes": [
+   {
+    "kw": "22 kW",
+    "connectors": 1,
+    "id": "WISMA_HSBC_BANDUNG"
+   }
+  ]
+ },
+ {
+  "id": "10492",
+  "nama": "(VOLTRON) Summarecon Mall Bandung",
+  "lat": -6.95475,
+  "lon": 107.697235,
+  "chargeboxes": [
+   {
+    "kw": "22 kW",
+    "connectors": 2,
+    "id": "VOL_SUMMARECON_MALL_BDG_1"
+   },
+   {
+    "kw": "22 kW",
+    "connectors": 2,
+    "id": "VOL_SUMMARECON_MALL_BDG_2"
+   }
+  ]
+ },
+ {
+  "id": "10552",
+  "nama": "(STARVO) De Braga Hotel Bandung",
+  "lat": -6.920463,
+  "lon": 107.610226,
+  "chargeboxes": [
+   {
+    "kw": "7 kW",
+    "connectors": 1,
+    "id": "STV_DE_BRAGA_HOTEL_BANDUNG"
+   }
+  ]
+ },
+ {
+  "id": "10565",
+  "nama": "(STARVO) Grand Sunshine Resort & Convention",
+  "lat": -7.025396,
+  "lon": 107.528682,
+  "chargeboxes": [
+   {
+    "kw": "7 kW",
+    "connectors": 1,
+    "id": "STV_GRAND_SUNSHINE"
+   }
+  ]
+ },
+ {
+  "id": "10582",
+  "nama": "(STARVO) Mercure Bandung City Centre",
+  "lat": -6.923877,
+  "lon": 107.611504,
+  "chargeboxes": [
+   {
+    "kw": "7 kW",
+    "connectors": 1,
+    "id": "STV_MERCURE_BCC"
+   }
+  ]
+ },
+ {
+  "id": "10584",
+  "nama": "(STARVO) MUJI CHARGING STATION GRAND HOTEL PREANGER",
+  "lat": -6.920537,
+  "lon": 107.611836,
+  "chargeboxes": [
+   {
+    "kw": "7 kW",
+    "connectors": 1,
+    "id": "STV_MUJI_GRAND_HOTEL_PREANGER"
+   }
+  ]
+ },
+ {
+  "id": "10610",
+  "nama": "(STARVO) The Gaia Hotel Bandung",
+  "lat": -6.843921,
+  "lon": 107.60054,
+  "chargeboxes": [
+   {
+    "kw": "11 kW",
+    "connectors": 2,
+    "id": "STV_THE_GAIA_HOTEL_BANDUNG_1"
+   },
+   {
+    "kw": "7 kW",
+    "connectors": 2,
+    "id": "STV_THE_GAIA_HOTEL_BANDUNG_2"
+   }
+  ]
+ },
+ {
+  "id": "10621",
+  "nama": "(Terra Charge) Pinewood Apartemen Jatinangor",
+  "lat": -6.935712,
+  "lon": 107.771781,
+  "chargeboxes": [
+   {
+    "kw": "22 kW",
+    "connectors": 1,
+    "id": "TERRA_PINEWOOD_JATINANGOR"
+   }
+  ]
+ },
+ {
+  "id": "10663",
+  "nama": "(VOLTRON) Plaza Summarecon",
+  "lat": -6.9555149,
+  "lon": 107.6938052,
+  "chargeboxes": [
+   {
+    "kw": "7 kW",
+    "connectors": 2,
+    "id": "VOL_PLAZA_SUMMARECON01"
+   },
+   {
+    "kw": "22 kW",
+    "connectors": 2,
+    "id": "VOL_PLAZA_SUMMARECON02"
+   }
+  ]
+ },
+ {
+  "id": "10664",
+  "nama": "(VOLTRON) Cluster Emily Summarecon",
+  "lat": -6.9636068,
+  "lon": 107.7003952,
+  "chargeboxes": [
+   {
+    "kw": "22 kW",
+    "connectors": 1,
+    "id": "VOL_CLUSTER_EMILY_SUMMARECON"
+   }
+  ]
+ },
+ {
+  "id": "10677",
+  "nama": "(VOLTRON) 23 Paskal Mall",
+  "lat": -6.9152332,
+  "lon": 107.5945622,
+  "chargeboxes": [
+   {
+    "kw": "7 kW",
+    "connectors": 2,
+    "id": "VOL_23_PASKAL_MALL01"
+   },
+   {
+    "kw": "22 kW",
+    "connectors": 2,
+    "id": "VOL_23_PASKAL_MALL02"
+   }
+  ]
+ },
+ {
+  "id": "10747",
+  "nama": "(VOLTRON) MCD Pasir Koja",
+  "lat": -6.9297234,
+  "lon": 107.5762345,
+  "chargeboxes": [
+   {
+    "kw": "22 kW",
+    "connectors": 2,
+    "id": "VOL_MCD_PASIR_KOJA01"
+   },
+   {
+    "kw": "22 kW",
+    "connectors": 2,
+    "id": "VOL_MCD_PASIR_KOJA02"
+   }
+  ]
+ },
+ {
+  "id": "10790",
+  "nama": "(DayaGreen) Hotel Courtyard By Marriott Bandung Dago",
+  "lat": -6.9041887,
+  "lon": 107.6106052,
+  "chargeboxes": [
+   {
+    "kw": "7 kW",
+    "connectors": 1,
+    "id": "DG_HOTEL_COURTYARD"
+   }
+  ]
+ },
+ {
+  "id": "10791",
+  "nama": "(DayaGreen) Hotel Naval / Zen Spa Bandung Sukajadi",
+  "lat": -6.8844458,
+  "lon": 107.5967939,
+  "chargeboxes": [
+   {
+    "kw": "7 kW",
+    "connectors": 1,
+    "id": "DG_HOTEL_NAVAL_SUKAJADI"
+   }
+  ]
+ },
+ {
+  "id": "10800",
+  "nama": "(DayaGreen) Hotel Crowne Plaza Bandung",
+  "lat": -6.9168281,
+  "lon": 107.6119609,
+  "chargeboxes": [
+   {
+    "kw": "7 kW",
+    "connectors": 2,
+    "id": "DG_HOTEL_CROWNE_PLAZA1"
+   },
+   {
+    "kw": "7 kW",
+    "connectors": 2,
+    "id": "DG_HOTEL_CROWNE_PLAZA2"
+   }
+  ]
+ },
+ {
+  "id": "10805",
+  "nama": "(DayaGreen) Hotel Tamansari Tera Residence",
+  "lat": -6.9153454,
+  "lon": 107.6125905,
+  "chargeboxes": [
+   {
+    "kw": "7 kW",
+    "connectors": 1,
+    "id": "DG_HOTEL_TAMANSARI"
+   }
+  ]
+ },
+ {
+  "id": "10828",
+  "nama": "(DayaGreen) Moxy Hotel",
+  "lat": -6.9001942,
+  "lon": 107.6120604,
+  "chargeboxes": [
+   {
+    "kw": "22 kW",
+    "connectors": 1,
+    "id": "DG_MOXY_HOTEL"
+   }
+  ]
+ },
+ {
+  "id": "10835",
+  "nama": "(DayaGreen) Four Points Bandung",
+  "lat": -6.9013978,
+  "lon": 107.6124583,
+  "chargeboxes": [
+   {
+    "kw": "22 kW",
+    "connectors": 1,
+    "id": "DG_FOUR_POINTS_BANDUNG"
+   }
+  ]
+ },
+ {
+  "id": "10861",
+  "nama": "(TERRA CHARGE) De Paviljoen Bandung",
+  "lat": -6.9060535,
+  "lon": 107.620587,
+  "chargeboxes": [
+   {
+    "kw": "22 kW",
+    "connectors": 1,
+    "id": "TC_DE_PAVILJOEN_BANDUNG"
+   }
+  ]
+ }
+]

@@ -1,0 +1,21 @@
+[project]
+name = "clean-code"
+version = "0.1.0"
+description = "Kode independen untuk regenerasi korpus #1, #2, #3, #7, #8, #9, #10, #12"
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "fastapi>=0.110",
+    "matplotlib>=3.8,<4",
+    "negmas==0.15.7",
+    "networkx>=3.2",
+    "numpy>=1.26",
+    "openpyxl>=3.1",
+    "osmnx>=1.9",
+    "pandas>=2.0",
+    "pytest>=8.0",
+    "scipy>=1.11,<2",
+    "torch>=2.0",
+    "uvicorn[standard]>=0.29",
+    "websockets>=12.0",
+]

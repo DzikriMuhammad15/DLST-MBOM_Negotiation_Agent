@@ -1,0 +1,78 @@
+{
+ "sumber": "filtering/output/bandung_trx.csv",
+ "cakupan": {
+  "tanggal_awal": "2024-01-01",
+  "tanggal_akhir": "2024-12-31",
+  "hari_kalender": 366,
+  "hari_ada_transaksi": 366,
+  "total_transaksi": 22514,
+  "stasiun_bertransaksi": 34,
+  "stasiun_aktif_master": 77
+ },
+ "port": {
+  "port_pada_stasiun_bertransaksi": 60,
+  "port_dunia_simulasi": 14,
+  "faktor_pemampatan": 4.2857,
+  "keterangan": "Volume seluruh Bandung dimampatkan ke 14 port dunia simulasi. Pemampatan ini disengaja supaya ada rebutan slot yang dapat dinegosiasikan."
+ },
+ "transaksi_per_hari": {
+  "rerata": 61.5137,
+  "median": 55.5,
+  "minimum": 5,
+  "maksimum": 170,
+  "kuantil_5": 21.0,
+  "kuantil_25": 34.0,
+  "kuantil_75": 85.0,
+  "kuantil_90": 108.0,
+  "kuantil_95": 122.0,
+  "kuantil_99": 145.7
+ },
+ "beban_port_jam_per_hari": {
+  "rerata": 77.5645,
+  "kuantil_95": 156.5458,
+  "okupansi_nyata_rerata_persen": 5.3864,
+  "okupansi_dimampatkan_rerata_persen": 23.0847,
+  "okupansi_dimampatkan_kuantil_95_persen": 46.591
+ },
+ "pertumbuhan_bulanan_per_hari": {
+  "2024-01": 26.903,
+  "2024-02": 27.931,
+  "2024-03": 31.613,
+  "2024-04": 39.967,
+  "2024-05": 43.613,
+  "2024-06": 47.8,
+  "2024-07": 59.742,
+  "2024-08": 75.226,
+  "2024-09": 83.2,
+  "2024-10": 91.452,
+  "2024-11": 92.8,
+  "2024-12": 116.323
+ },
+ "stasiun_aktif_per_bulan": {
+  "2024-01": 28,
+  "2024-02": 26,
+  "2024-03": 29,
+  "2024-04": 27,
+  "2024-05": 28,
+  "2024-06": 29,
+  "2024-07": 30,
+  "2024-08": 32,
+  "2024-09": 30,
+  "2024-10": 31,
+  "2024-11": 32,
+  "2024-12": 32
+ },
+ "N_SKENARIO": {
+  "n_hari_simulasi": 3,
+  "medium_occupancy": {
+   "N": 185,
+   "dasar": "rata-rata transaksi harian",
+   "laju_harian": 61.5137
+  },
+  "high_occupancy": {
+   "N": 366,
+   "dasar": "kuantil 95 transaksi harian",
+   "laju_harian": 122.0
+  }
+ }
+}

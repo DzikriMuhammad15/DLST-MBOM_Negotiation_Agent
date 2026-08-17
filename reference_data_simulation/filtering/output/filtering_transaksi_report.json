@@ -1,0 +1,30 @@
+{
+ "referensi": "simulation_data/_derived/bandung_trx.csv",
+ "referensi_tersedia": true,
+ "n_referensi": 22514,
+ "n_hasil": 22514,
+ "jumlah_baris_sama": true,
+ "baris_dibandingkan": 22514,
+ "kolom_dibandingkan": [
+  "id_spklu",
+  "nama_spklu",
+  "chargebox_id",
+  "kw_tier",
+  "date",
+  "hour",
+  "dow",
+  "month",
+  "kwh",
+  "rpkwh",
+  "rppakai",
+  "price_per_kwh",
+  "durasi_min",
+  "first_soc",
+  "last_soc",
+  "connector",
+  "id_user"
+ ],
+ "sel_berbeda_per_kolom": {},
+ "IDENTIK": true,
+ "ringkasan_sampler_identik": true
+}

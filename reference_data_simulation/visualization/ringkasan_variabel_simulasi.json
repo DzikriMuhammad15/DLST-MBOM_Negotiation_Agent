@@ -1,0 +1,61 @@
+{
+ "jam_mulai": {
+  "sumber": "kolom hour / hour_frac, seluruh 22.514 transaksi Bandung",
+  "nilai_berbeda_jam_bulat": 24,
+  "nilai_berbeda_jam_menit": 19169,
+  "jam_puncak": 13,
+  "jam_lembah": 3
+ },
+ "durasi": {
+  "sumber": "kolom durasi_min, seluruh 22.514 transaksi Bandung",
+  "median_menit": 45.0,
+  "mean_menit": 75.6559,
+  "maks_menit": 1502.0,
+  "kemiringan": 3.8209,
+  "proporsi_pasca_engine": {
+   "0.5 jam": 0.494848,
+   "1.0 jam": 0.222128,
+   "1.5 jam": 0.09292,
+   "2.0 jam": 0.190104
+  },
+  "mean_grid_pasca_engine": 1.97828,
+  "mean_jam_pasca_engine": 0.98914
+ },
+ "stasiun": {
+  "sumber": "volume transaksi 2024 pada 13 stasiun dunia simulasi",
+  "total_sesi_13_stasiun": 2142,
+  "stasiun_tanpa_transaksi": 2,
+  "laplace_alpha": 1.0,
+  "bobot": {
+   "SPKLU PLN UID JAWA BARAT": 0.223202,
+   "SPKLU PLN GEOWISATA INN": 0.157309,
+   "SPKLU PLN ULP LEMBANG": 0.131323,
+   "SPKLU PLN ULP PRIMA CIBABAT": 0.115545,
+   "SPKLU PLN ULP KOPO": 0.105336,
+   "SPKLU PLN ULP CIMAHI SELATAN": 0.087239,
+   "SPKLU PLN ULP CIJAWURA": 0.076102,
+   "SPKLU PLN ULP BANJARAN": 0.061717,
+   "SPKLU PLN ULP UJUNGBERUNG": 0.035731,
+   "SPKLU PLN HOTEL NOVENA": 0.00464,
+   "SPKLU PLN TEUAN CAFE & RESTO": 0.000928,
+   "SPKLU PLN ICON PLUS BANDUNG": 0.000464,
+   "SPKLU PLN ULP RANCAEKEK": 0.000464
+  }
+ },
+ "harga": {
+  "sumber": "kolom price_per_kwh (RPKWH / KWH)",
+  "median": 2466.78,
+  "mean": 2466.78,
+  "simpangan_baku": 0.0008,
+  "catatan": "praktis flat (tarif PLN); simulasi hanya memakai median"
+ },
+ "bobot_waktu_order": {
+  "sumber": "real_data/time_weight_24.json (TomTom Traffic Index Bandung)",
+  "jam_puncak": 17,
+  "jam_berbobot_nol": [
+   2,
+   3,
+   4
+  ]
+ }
+}

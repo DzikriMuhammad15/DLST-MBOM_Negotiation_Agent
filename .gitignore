@@ -1,0 +1,28 @@
+# Virtual environment (reinstall dari requirements.txt / pyproject.toml)
+.venv/
+
+# Bytecode Python
+__pycache__/
+*.pyc
+*.pyo
+
+# Data hasil simulasi -- TIDAK di-push (hard constraint: jangan diubah/dihapus
+# secara lokal, tapi juga tidak ikut ke repo kode). File-nya tetap utuh di
+# disk, hanya tidak dilacak git.
+v_1/data/
+v_2/data_*/
+v_2/_smoke/
+network_scaling/data/
+metaheuristic/data/
+non_negotiation_mechanism/*/data/
+
+# Log kampanye antrean (ephemeral, mesin-spesifik)
+_antrean/logs/
+
+# Laporan tesis dan turunannya -- dikecualikan atas permintaan
+laporan/
+
+# Editor / OS
+.vscode/
+.DS_Store
+Thumbs.db

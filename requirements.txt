@@ -1,0 +1,29 @@
+# Core negotiation & learning stack (pinned per .claude/project_instruction/91-PLAYBOOK-IMPLEMENTASI.md)
+negmas==0.15.7
+torch>=2.0
+numpy>=1.26
+
+# Dashboard backend (07-02): FastAPI REST + WebSocket streaming
+fastapi>=0.110
+uvicorn[standard]>=0.29
+websockets>=12.0
+
+# Routing (01-05): OSM road network graph + shortest path
+osmnx>=1.9
+networkx>=3.2
+
+# Run reporting / metrics plots (simulation/metrics/plots.py)
+# matplotlib is REQUIRED for PNG rendering (forced "Agg" backend).
+# scipy powers the tanh concession curve fit (curve_fit); code degrades via
+# SCIPY_AVAILABLE, but scipy is included for the full reporting feature set.
+matplotlib>=3.8,<4
+scipy>=1.11,<2
+
+# Analisis data referensi (reference_data_simulation/)
+# openpyxl membaca berkas .xlsx mentah pada tahap penyaringan; pandas dipakai
+# untuk analisis eksploratif dan tabel metrik kecocokan distribusi.
+openpyxl>=3.1
+pandas>=2.0
+
+# Testing
+pytest>=8.0

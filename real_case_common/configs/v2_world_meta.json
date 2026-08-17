@@ -1,0 +1,426 @@
+{
+ "dibuat": "build_world_config.py (eksperiment_real_case_v2)",
+ "stations_13_pln": [
+  {
+   "station_id": "spklu_hotel_novena",
+   "csv_id": "1242",
+   "nama": "SPKLU PLN HOTEL NOVENA",
+   "lat": -6.840745,
+   "lon": 107.597386,
+   "ports": [
+    {
+     "port_id": "spklu_hotel_novena_p0",
+     "power_kw": 22.0
+    }
+   ]
+  },
+  {
+   "station_id": "spklu_icon_plus_bandung",
+   "csv_id": "1568",
+   "nama": "SPKLU PLN ICON PLUS BANDUNG",
+   "lat": -6.908162,
+   "lon": 107.631116,
+   "ports": [
+    {
+     "port_id": "spklu_icon_plus_bandung_p0",
+     "power_kw": 22.0
+    }
+   ]
+  },
+  {
+   "station_id": "spklu_teuan_cafe_resto",
+   "csv_id": "1455",
+   "nama": "SPKLU PLN TEUAN CAFE & RESTO",
+   "lat": -6.8146673,
+   "lon": 107.6249528,
+   "ports": [
+    {
+     "port_id": "spklu_teuan_cafe_resto_p0",
+     "power_kw": 22.0
+    }
+   ]
+  },
+  {
+   "station_id": "spklu_uid_jawa_barat",
+   "csv_id": "139",
+   "nama": "SPKLU PLN UID JAWA BARAT",
+   "lat": -6.920729,
+   "lon": 107.6084388,
+   "ports": [
+    {
+     "port_id": "spklu_uid_jawa_barat_p0",
+     "power_kw": 22.0
+    }
+   ]
+  },
+  {
+   "station_id": "spklu_ulp_banjaran",
+   "csv_id": "233",
+   "nama": "SPKLU PLN ULP BANJARAN",
+   "lat": -7.035417,
+   "lon": 107.593316,
+   "ports": [
+    {
+     "port_id": "spklu_ulp_banjaran_p0",
+     "power_kw": 22.0
+    }
+   ]
+  },
+  {
+   "station_id": "spklu_ulp_cijawura",
+   "csv_id": "144",
+   "nama": "SPKLU PLN ULP CIJAWURA",
+   "lat": -6.954014,
+   "lon": 107.640576,
+   "ports": [
+    {
+     "port_id": "spklu_ulp_cijawura_p0",
+     "power_kw": 22.0
+    }
+   ]
+  },
+  {
+   "station_id": "spklu_ulp_cimahi_selatan",
+   "csv_id": "182",
+   "nama": "SPKLU PLN ULP CIMAHI SELATAN",
+   "lat": -6.89858,
+   "lon": 107.554142,
+   "ports": [
+    {
+     "port_id": "spklu_ulp_cimahi_selatan_p0",
+     "power_kw": 22.0
+    }
+   ]
+  },
+  {
+   "station_id": "spklu_ulp_kopo",
+   "csv_id": "143",
+   "nama": "SPKLU PLN ULP KOPO",
+   "lat": -6.933869,
+   "lon": 107.57143,
+   "ports": [
+    {
+     "port_id": "spklu_ulp_kopo_p0",
+     "power_kw": 22.0
+    }
+   ]
+  },
+  {
+   "station_id": "spklu_ulp_lembang",
+   "csv_id": "224",
+   "nama": "SPKLU PLN ULP LEMBANG",
+   "lat": -6.8183273,
+   "lon": 107.6220045,
+   "ports": [
+    {
+     "port_id": "spklu_ulp_lembang_p0",
+     "power_kw": 22.0
+    }
+   ]
+  },
+  {
+   "station_id": "spklu_ulp_prima_cibabat",
+   "csv_id": "202",
+   "nama": "SPKLU PLN ULP PRIMA CIBABAT",
+   "lat": -6.8757411,
+   "lon": 107.5448649,
+   "ports": [
+    {
+     "port_id": "spklu_ulp_prima_cibabat_p0",
+     "power_kw": 22.0
+    }
+   ]
+  },
+  {
+   "station_id": "spklu_ulp_rancaekek",
+   "csv_id": "1509",
+   "nama": "SPKLU PLN ULP RANCAEKEK",
+   "lat": -6.95895,
+   "lon": 107.76474,
+   "ports": [
+    {
+     "port_id": "spklu_ulp_rancaekek_p0",
+     "power_kw": 22.0
+    }
+   ]
+  },
+  {
+   "station_id": "spklu_ulp_ujungberung",
+   "csv_id": "146",
+   "nama": "SPKLU PLN ULP UJUNGBERUNG",
+   "lat": -6.913079,
+   "lon": 107.694909,
+   "ports": [
+    {
+     "port_id": "spklu_ulp_ujungberung_p0",
+     "power_kw": 22.0
+    }
+   ]
+  },
+  {
+   "station_id": "spklu_geowisata_inn",
+   "csv_id": "675",
+   "nama": "SPKLU PLN GEOWISATA INN",
+   "lat": -6.917532,
+   "lon": 107.578611,
+   "ports": [
+    {
+     "port_id": "spklu_geowisata_inn_p0",
+     "power_kw": 40.0
+    },
+    {
+     "port_id": "spklu_geowisata_inn_p1",
+     "power_kw": 40.0
+    }
+   ]
+  }
+ ],
+ "n_ports_total": 14,
+ "harga": {
+  "base_price_per_kwh": 2466.8,
+  "sumber": "median price_per_kwh bandung_trx.csv (tarif PLN nyata, flat)",
+  "price_levels": [
+   1973.44,
+   2466.8,
+   3453.52,
+   4000.0
+  ],
+  "rumus_levels": "[0.8*base, base, 1.4*base, 4000.0]",
+  "kompensasi_per_kwh": 986.72,
+  "rumus_kompensasi": "0.4 * base = 0.4 * 2466.8 = 986.72"
+ },
+ "n_booking": {
+  "okupansi_target": 0.225,
+  "kapasitas_port_jam": 1008,
+  "rumus_kapasitas": "14 port x 3 hari x 24 jam = 1008",
+  "durasi_efektif_jam": 0.98914,
+  "durasi_efektif_grid": 1.97828,
+  "N": 229,
+  "rumus_N": "round(0.225 x 1008 / 0.98914) = round(226.8 / 0.98914) = 229"
+ },
+ "sampler_provenance": {
+  "rows_bandung": 22514,
+  "hour_hist": {
+   "0": 388,
+   "1": 219,
+   "2": 150,
+   "3": 112,
+   "4": 137,
+   "5": 308,
+   "6": 625,
+   "7": 1068,
+   "8": 1167,
+   "9": 1282,
+   "10": 1373,
+   "11": 1343,
+   "12": 1332,
+   "13": 1491,
+   "14": 1471,
+   "15": 1465,
+   "16": 1390,
+   "17": 1359,
+   "18": 1234,
+   "19": 1171,
+   "20": 1047,
+   "21": 1057,
+   "22": 799,
+   "23": 526
+  },
+  "durasi_hist_bin15": {
+   "0": 2520,
+   "15": 3797,
+   "30": 4824,
+   "45": 3047,
+   "60": 1954,
+   "75": 1319,
+   "90": 773,
+   "105": 537,
+   "120": 530,
+   "135": 348,
+   "150": 323,
+   "165": 468,
+   "180": 263,
+   "195": 213,
+   "210": 201,
+   "225": 136,
+   "240": 1261
+  },
+  "station_volumes_2024": {
+   "spklu_hotel_novena": 9,
+   "spklu_icon_plus_bandung": 0,
+   "spklu_teuan_cafe_resto": 1,
+   "spklu_uid_jawa_barat": 480,
+   "spklu_ulp_banjaran": 132,
+   "spklu_ulp_cijawura": 163,
+   "spklu_ulp_cimahi_selatan": 187,
+   "spklu_ulp_kopo": 226,
+   "spklu_ulp_lembang": 282,
+   "spklu_ulp_prima_cibabat": 248,
+   "spklu_ulp_rancaekek": 0,
+   "spklu_ulp_ujungberung": 76,
+   "spklu_geowisata_inn": 338
+  },
+  "laplace_alpha": 1.0,
+  "station_weights": {
+   "spklu_hotel_novena": 0.00464,
+   "spklu_icon_plus_bandung": 0.000464,
+   "spklu_teuan_cafe_resto": 0.000928,
+   "spklu_uid_jawa_barat": 0.223202,
+   "spklu_ulp_banjaran": 0.061717,
+   "spklu_ulp_cijawura": 0.076102,
+   "spklu_ulp_cimahi_selatan": 0.087239,
+   "spklu_ulp_kopo": 0.105336,
+   "spklu_ulp_lembang": 0.131323,
+   "spklu_ulp_prima_cibabat": 0.115545,
+   "spklu_ulp_rancaekek": 0.000464,
+   "spklu_ulp_ujungberung": 0.035731,
+   "spklu_geowisata_inn": 0.157309
+  },
+  "expected_capped_duration_grids": 1.97828,
+  "expected_capped_duration_hours": 0.98914,
+  "duration_grid_rule": "grid = min(4, max(1, int(menit/30 + 0.5))) — nearest ½-jam, cap 0,5–2 jam"
+ },
+ "time_weight": {
+  "sumber": "simulation_data/sumber_data_traffic_kendaraanUmum/time_weight_24.json (TomTom Traffic Index Bandung, data 2025)",
+  "bobot": {
+   "0": 0.0242,
+   "1": 0.0029,
+   "2": 0.0,
+   "3": 0.0,
+   "4": 0.0,
+   "5": 0.0296,
+   "6": 0.3379,
+   "7": 0.4484,
+   "8": 0.4332,
+   "9": 0.5018,
+   "10": 0.6034,
+   "11": 0.7097,
+   "12": 0.7535,
+   "13": 0.893,
+   "14": 0.9403,
+   "15": 0.9138,
+   "16": 0.9685,
+   "17": 1.0,
+   "18": 0.7932,
+   "19": 0.66,
+   "20": 0.541,
+   "21": 0.44,
+   "22": 0.2672,
+   "23": 0.1094
+  }
+ },
+ "taksi": {
+  "n": 50,
+  "battery_kwh": 61.0,
+  "konsumsi_kwh_per_km": 0.2,
+  "speed_kmh": 30.0,
+  "posisi": "Uniform bbox lat (-6.98, -6.84) lon (107.55, 107.72)",
+  "soc": "Uniform(0.35, 0.9)",
+  "seed_taksi": {
+   "1": 10042,
+   "2": 10007,
+   "3": 10123
+  }
+ },
+ "run_seeds": {
+  "1": 42,
+  "2": 7,
+  "3": 123
+ },
+ "marking_areas_18": [
+  {
+   "nama": "d'Botanica Pasteur",
+   "lat": -6.8812,
+   "lon": 107.58
+  },
+  {
+   "nama": "Cihampelas Walk (Ciwalk)",
+   "lat": -6.8938,
+   "lon": 107.6052
+  },
+  {
+   "nama": "Paris Van Java (PVJ)",
+   "lat": -6.8895,
+   "lon": 107.5957
+  },
+  {
+   "nama": "Bandung Indah Plaza (BIP)",
+   "lat": -6.9112,
+   "lon": 107.6097
+  },
+  {
+   "nama": "Summarecon Mall Bandung",
+   "lat": -6.96,
+   "lon": 107.717
+  },
+  {
+   "nama": "Trans Studio Mall Bandung",
+   "lat": -6.9276,
+   "lon": 107.6364
+  },
+  {
+   "nama": "Stasiun Bandung",
+   "lat": -6.9175,
+   "lon": 107.603
+  },
+  {
+   "nama": "Stasiun Tegalluar Whoosh",
+   "lat": -6.985,
+   "lon": 107.74
+  },
+  {
+   "nama": "Terminal Leuwipanjang",
+   "lat": -6.9333,
+   "lon": 107.5742
+  },
+  {
+   "nama": "Kertajati International Airport",
+   "lat": -6.5569,
+   "lon": 108.2314
+  },
+  {
+   "nama": "Cititrans Dipatiukur",
+   "lat": -6.884,
+   "lon": 107.6186
+  },
+  {
+   "nama": "Shuttle Drop Off Pasteur",
+   "lat": -6.8855,
+   "lon": 107.5779
+  },
+  {
+   "nama": "Majesty Apartement",
+   "lat": -6.8858,
+   "lon": 107.579
+  },
+  {
+   "nama": "Kota Baru Parahyangan",
+   "lat": -6.8655,
+   "lon": 107.475
+  },
+  {
+   "nama": "W Super Club",
+   "lat": -6.918,
+   "lon": 107.615
+  },
+  {
+   "nama": "MOD Pool and Club",
+   "lat": -6.9205,
+   "lon": 107.6162
+  },
+  {
+   "nama": "Lembang Park Zoo",
+   "lat": -6.8247,
+   "lon": 107.6133
+  },
+  {
+   "nama": "Rest Area Alun-Alun Lembang",
+   "lat": -6.818,
+   "lon": 107.6169
+  }
+ ],
+ "kontensi": {
+  "taksi_per_port": 3.5714,
+  "rumus": "50 / 14 = 3.5714"
+ }
+}

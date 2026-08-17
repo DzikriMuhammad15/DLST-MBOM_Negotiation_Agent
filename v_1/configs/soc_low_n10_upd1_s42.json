@@ -1,0 +1,46 @@
+{
+  "time": {
+    "n_days": 10
+  },
+  "training": {
+    "train_every_n_episodes": 1
+  },
+  "seed": 42,
+  "taxi_spec": {
+    "initial_taxi_state": [
+      {
+        "taxi_id": "taxi_0",
+        "position": [
+          -6.9025,
+          107.6041
+        ],
+        "soc": 0.2
+      },
+      {
+        "taxi_id": "taxi_1",
+        "position": [
+          -6.9125,
+          107.6241
+        ],
+        "soc": 0.25
+      },
+      {
+        "taxi_id": "taxi_2",
+        "position": [
+          -6.9325,
+          107.6441
+        ],
+        "soc": 0.3
+      }
+    ]
+  },
+  "negotiation": {
+    "max_action_library": 10,
+    "max_steps": 20
+  },
+  "state_feature": {
+    "encoder_dims": {
+      "K_max": 10
+    }
+  }
+}

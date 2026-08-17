@@ -1,0 +1,166 @@
+[
+ {
+  "peringkat": 1,
+  "keluarga": "fisk",
+  "label": "Log-Logistik (Fisk)",
+  "status": "berhasil",
+  "nama_parameter": [
+   "c",
+   "skala"
+  ],
+  "parameter": [
+   1.7429053713498712,
+   0.0,
+   47.0631672698281
+  ],
+  "aic": 237252.47729698627,
+  "ks": 0.035902019546856956
+ },
+ {
+  "peringkat": 2,
+  "keluarga": "gamma",
+  "label": "Gamma",
+  "status": "berhasil",
+  "nama_parameter": [
+   "a",
+   "skala"
+  ],
+  "parameter": [
+   1.0963274361166242,
+   0.0,
+   69.56733149589589
+  ],
+  "aic": 239704.02944074728,
+  "ks": 0.10156348566054785
+ },
+ {
+  "peringkat": 3,
+  "keluarga": "chi2",
+  "label": "Chi-Kuadrat",
+  "status": "berhasil",
+  "nama_parameter": [
+   "df",
+   "skala"
+  ],
+  "parameter": [
+   2.192653798125731,
+   0.0,
+   34.7836996941644
+  ],
+  "aic": 239704.02944075648,
+  "ks": 0.10156362429113286
+ },
+ {
+  "peringkat": 4,
+  "keluarga": "expon",
+  "label": "Eksponensial",
+  "status": "berhasil",
+  "nama_parameter": [
+   "skala"
+  ],
+  "parameter": [
+   0.0,
+   76.26857417637082
+  ],
+  "aic": 239819.7052098096,
+  "ks": 0.09381008733729335
+ },
+ {
+  "peringkat": 5,
+  "keluarga": "weibull_min",
+  "label": "Weibull",
+  "status": "berhasil",
+  "nama_parameter": [
+   "c",
+   "skala"
+  ],
+  "parameter": [
+   0.9943521652416969,
+   0.0,
+   76.05769260493636
+  ],
+  "aic": 239820.29422481064,
+  "ks": 0.09260169707820376
+ },
+ {
+  "peringkat": 6,
+  "keluarga": "lognorm",
+  "label": "Lognormal",
+  "status": "berhasil",
+  "nama_parameter": [
+   "s",
+   "skala"
+  ],
+  "parameter": [
+   1.1096077473866348,
+   0.0,
+   45.29803564008099
+  ],
+  "aic": 239909.2740407043,
+  "ks": 0.08104496945396303
+ },
+ {
+  "peringkat": 7,
+  "keluarga": "halfnorm",
+  "label": "Half-Normal",
+  "status": "berhasil",
+  "nama_parameter": [
+   "skala"
+  ],
+  "parameter": [
+   0.0,
+   121.93683620600595
+  ],
+  "aic": 248588.02335790696,
+  "ks": 0.26056402726473954
+ },
+ {
+  "peringkat": 8,
+  "keluarga": "invgauss",
+  "label": "Inverse Gaussian (Wald)",
+  "status": "berhasil",
+  "nama_parameter": [
+   "mu",
+   "skala"
+  ],
+  "parameter": [
+   5.591995614086823,
+   0.0,
+   13.638883046374767
+  ],
+  "aic": 262215.76486612356,
+  "ks": 0.33171121856494745
+ },
+ {
+  "peringkat": 9,
+  "keluarga": "rayleigh",
+  "label": "Rayleigh",
+  "status": "berhasil",
+  "nama_parameter": [
+   "skala"
+  ],
+  "parameter": [
+   0.0,
+   86.22236375770014
+  ],
+  "aic": 274272.57251307904,
+  "ks": 0.4190446134102839
+ },
+ {
+  "peringkat": 10,
+  "keluarga": "pareto",
+  "label": "Pareto",
+  "status": "berhasil",
+  "nama_parameter": [
+   "b",
+   "skala"
+  ],
+  "parameter": [
+   0.11935085272803933,
+   0.0,
+   0.0104057730657126
+  ],
+  "aic": 311965.3792733716,
+  "ks": 0.4978853096806513
+ }
+]
