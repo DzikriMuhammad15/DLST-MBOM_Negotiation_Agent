@@ -26,3 +26,6 @@ laporan/
 .vscode/
 .DS_Store
 Thumbs.db
+
+# Lock file sesi Claude Code (PID, session id, mesin-spesifik)
+.claude/scheduled_tasks.lock
