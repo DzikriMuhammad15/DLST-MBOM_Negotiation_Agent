@@ -584,10 +584,48 @@ Seluruh folder data di `clean_code` sudah dihapus atas perintah peneliti, yaitu
 `v_2/data_*`, `v_1/data`, `network_scaling/data`, `metaheuristic/data`, dan
 `non_negotiation_mechanism/*/data`. **Jangan menjanjikan pemulihan data lama.**
 
-### 🔴 KAMPANYE SEDANG BERJALAN, jangan dilepas ulang tanpa memeriksa
+### ✅ KAMPANYE SELESAI 2026-08-17 08:59, korpus penuh 1.198/1.198
 
-Dilepas dengan `nohup`, jadi **terlepas dari sesi Claude Code**. Menutup sesi
-atau melakukan `/compact` sama sekali tidak menyentuhnya.
+Regenerasi korpus **TUNTAS**, yaitu v_1 78/78 dan v_2 1.120/1.120, dengan
+**nol run rusak, nol folder parsial, nol gagal, dan nol baris DISK TIPIS**
+sepanjang seluruh kampanye. Disk sisa 84 GB.
+
+### 🔴 KEPUTUSAN PENAMAAN SKENARIO v_2, dari user 2026-08-17
+
+Nama skenario di laporan memakai **"medium occupancy"** dan **"high occupancy"**
+beserta varian **mahalkompen**, bukan penamaan berbasis permintaan. Saya sempat
+menyarankan sebaliknya karena okupansi adalah hasil dan bukan kendali, tetapi
+**user menegaskan pilihannya. Ikuti, jangan diungkit lagi.**
+
+Belum diterapkan ke berkas mana pun. Yang akan tersentuh, Bab IV Tabel IV.37
+beserta prosa IV.2.4.3, dan Bab V.2 pada empat heading dan dua belas caption.
+
+Okupansi sebenarnya, medium 26,3 persen dan high 47,8 persen, sedangkan N tetap
+persis 185 dan 366.
+
+### ⚠️ Bab IV menulis 30 ulangan, korpusnya 40
+
+Tabel IV.37 dan prosa IV.2.4.3 menyatakan 30 ulangan per keluarga, padahal
+korpus yang sudah jadi berisi 40. Salah satu harus mengalah, dan ini **belum
+diputuskan user**.
+
+### Hasil v_2, ringkasan yang perlu diingat
+
+Angka lengkap ada di memori `hasil-v2-analisis-lengkap`, perkakasnya
+`laporan/_tooling/data_babv2.py`. Intinya:
+
+- **Median negosiasi mengungguli pemesanan statis di seluruh 16 sel**, tetapi
+  rata-ratanya kalah pada kedua keluarga medium karena ekor bawah.
+- **Kolaps itu sifat agen, bukan sifat dunia.** Irisan kegagalan antar-agen
+  selalu sekitar atau di bawah harapan acak.
+- **Yang merusak bisnis adalah lamanya gagal, bukan gagalnya.**
+- `avg_utility_fleet_deal` **bersyarat pada terjadinya deal**, jangan dibaca
+  sendirian.
+- **Penyaringan run terjelek tidak boleh menjadi hasil Bab V**, hanya
+  diagnostik, sebab pemilihannya bersandar pada hasilnya sendiri.
+
+Kalau nanti perlu menjalankan lagi, perkakasnya tetap yang di bawah ini, dan
+aturan memeriksa proses hidup sebelum melepas ulang tetap berlaku.
 
 ```bash
 .venv/Scripts/python.exe _antrean/status.py      # tabel sudah/belum per agen
@@ -852,6 +890,16 @@ dunia simulasi tetap konsisten dengan korpus, dan dicatat sebagai keterbatasan d
 
 Berkas laporan tesis kini **berada di project ini**, di `laporan/`. Salinan di
 `nyoba_general` sengaja dibiarkan utuh sebagai arsip dan **tidak boleh diubah**.
+
+> 📕 **BACA DULU `laporan/aturan_penulisan_laporan.md`** sebelum menyentuh laporan.
+> Berkas itu aturan lengkapnya, 24 bagian, mencakup aturan proses, gaya bahasa,
+> tanda baca, istilah italic, penomoran, konvensi tabel dan gambar, API perkakas,
+> jebakan, **peta seluruh direktori korpus data hasil**, keadaan dokumen terukur,
+> dan daftar periksa akhir. Bagian 18 ini hanya ringkasannya.
+>
+> ⚠️ **Korpus v_2 kini 30 ulangan, bukan 40.** Run 31 sampai 40 sudah dipindahkan
+> keluar project. Seluruh angka v_2 yang beredar dihitung dari 40 ulangan dan
+> wajib dihitung ulang. Lihat bagian 20.4 berkas itu.
 
 ### Aturan proses, paling mengikat
 

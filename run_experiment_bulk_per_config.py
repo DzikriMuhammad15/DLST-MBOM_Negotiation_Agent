@@ -48,6 +48,130 @@ Usage::
 Each sub-experiment reuses :func:`run_experiment.run_single_experiment`, so its
 folder layout, logs, metrics and diagrams are identical to a single
 ``run_experiment.py`` run — only the parent directory differs.
+
+--------------------------------------------------------------------------
+DIREKTORI KORPUS HASIL EKSPERIMEN YANG SUDAH DIJALANKAN (project clean_code)
+--------------------------------------------------------------------------
+
+Ini peta korpus **yang benar-benar ada di disk**, dicacah ulang pada 18 Agustus
+2026, bukan salinan rencana. Skrip ini adalah mesin di balik korpus negosiasi
+v_1, sebab ``v_1/main_bulk_v1.py`` memasang tambalan dunia lama lalu memanggil
+:func:`main` di berkas ini. Korpus v_2 memakai titik masuknya sendiri.
+
+**HARD CONSTRAINT. Data hasil di direktori-direktori berikut TIDAK BOLEH
+disentuh.** Tidak dihapus, tidak dipindah, tidak ditimpa, tidak dinormalisasi.
+Skrip analisis dan skrip penulis laporan hanya boleh MEMBACA.
+
+1. Korpus v_1, skenario non-real-case, 13 dunia
+------------------------------------------------
+
+Titik masuk ``v_1/main_bulk_v1.py`` (negosiasi), ``v_1/main_nonneg_v1.py``
+(non-negosiasi), ``v_1/main_greedy_v1.py`` (Greedy). Config di ``v_1/configs/``,
+13 berkas, satu per dunia. Total 6,02 GB, 78 sel, seluruhnya lengkap.
+
+    v_1/data/experiment_bulk/<dunia>/       # negosiasi, 13 dunia x 3 agen = 39
+        exp06_padded_06_DLSTMBOM_vs_RL/
+        exp08_padded_08_DLSTMBOMnew_vs_RL/  # DLST-MBOM Nego
+        exp09_padded_09_DLST_vs_RL/
+        bulk_results_exp06.csv  bulk_results_exp08.csv  bulk_results_exp09.csv
+    v_1/data/as_is/<dunia>/                 # tanpa pemesanan, 13
+    v_1/data/booking/<dunia>/               # pemesanan statis, 13
+    v_1/data/greedy/<dunia>/                # Greedy lawan Greedy, 13
+
+Ketiga belas ``<dunia>`` itu, dipakai persis sebagai nama folder maupun nama
+config, adalah::
+
+    ref_n10_upd1_s42            10 hari, dunia REFERENSI
+    control_default_s42         default tanpa-belajar, 1 hari, upd5
+    hz_n1_upd1_s42              horizon 1 hari
+    hz_n5_upd1_s42              horizon 5 hari
+    hz_n30_upd1_s42             horizon 30 hari
+    uf_n10_upd2_s42             pembaruan tiap 2 episode
+    uf_n10_upd5_s42             pembaruan tiap 5 episode
+    sc_scarce_n10_upd1_s42      kelangkaan tinggi 6:2
+    sc_abundant_n10_upd1_s42    sumber daya longgar 2:6
+    soc_low_n10_upd1_s42        SoC rendah
+    soc_high_n10_upd1_s42       SoC tinggi
+    cc_alternating_n10_upd1_s42 lawan bergiliran
+    cc_fixedopp_n10_upd1_s42    lawan beku
+
+2. Korpus v_2, skenario real-case, 4 keluarga
+----------------------------------------------
+
+Titik masuk ``v_2/main_nego.py``, ``v_2/main_nonneg_v2.py``,
+``v_2/main_greedy.py``. Config dibangkitkan ``v_2/gen_configs.py`` ke
+``v_2/configs/``. Total 22,53 GB.
+
+    v_2/data_medium_occupancy/                  # permintaan N = 185
+    v_2/data_high_occupancy/                    # permintaan N = 366
+    v_2/data_mahalkompen_medium_occupancy/      # 185, harga lantai dilarang saat digeser
+    v_2/data_mahalkompen_high_occupancy/        # 366, harga lantai dilarang saat digeser
+
+Isi tiap keluarga sama polanya::
+
+    <keluarga>/negotiation/real_case_v2/run{n}_padded_{slug}/
+        slug = dlst | dlstmbom | dlstmbomnew | directed | greedy
+    <keluarga>/non_negotiation/real_case_v2/{as_is,booking}/run{n}/
+
+Perhatikan bedanya penamaan. Folder negosiasi memakai ``run{n}_padded_<slug>``
+sedangkan non-negosiasi memakai ``run{n}`` saja, dan **nomornya tidak diberi nol
+di depan**, jadi ``run1`` bukan ``run01``.
+
+3. Cacah ulangan, 30 dan BUKAN 40
+----------------------------------
+
+Kampanye 14 sampai 17 Agustus 2026 menghasilkan 40 ulangan per sel. Sesudah itu
+**ulangan 31 sampai 40 dipindahkan keluar dari project ini oleh peneliti**, ke
+``thesis_final/hehe_clean_code/`` dan ``thesis_final/hehe/``, beserta config-nya.
+Keadaan sekarang, seluruh 28 sel v_2 berisi **run 1 sampai 30, kontigu, tanpa
+lubang**, dan ``v_2/configs/`` berisi 120 config ditambah 2 berkas meta.
+
+    per keluarga : 5 x 30 negosiasi + 2 x 30 non-negosiasi  = 210 run
+    empat keluarga                                          = 840 run
+    ditambah v_1                                            =  78 run
+    TOTAL korpus clean_code                                 = 918 run
+
+⚠️ ``laporan/_tooling/data_babv2.json`` masih merekam ``n = 40`` per sel, sebab
+dihasilkan sebelum pemindahan. Angka di berkas itu **basi**. Jalankan ulang
+``laporan/_tooling/data_babv2.py`` sebelum memakainya, dan turunkan ``N_ULANG``
+dari 40 menjadi 30 lebih dulu, kalau tidak skrip akan berhenti dengan galat.
+
+4. Isi tiap folder run
+-----------------------
+
+    experiment_meta.json / run_meta.json   parameter dan seed run
+    metrices/aggregate_metrics.json        SUMBER ANGKA LAPORAN
+    metrices/booking_generation.json       okupansi hasil, khusus v_2
+    metrices/distribusi_durasi.png         diagram sampling, khusus v_2
+    metrices/distribusi_jam.png
+    logs/simulation/                       trace simulasi
+    logs/online_training/*.jsonl           log pelatihan per episode
+    history/  registry/  runs/
+
+Sebuah run dianggap **lengkap** bila ``metrices/aggregate_metrics.json`` ada.
+Untuk v_2 ditambah syarat ``metrices/booking_generation.json`` ada.
+
+5. Pengendali kampanye
+-----------------------
+
+    _antrean/antrean_v1.sh  antrean_v2.sh  antrean_semua.sh
+    _antrean/status.py  periksa.py  progres.sh  hentikan.sh
+    _antrean/logs/
+
+``periksa.py`` memeriksa kelengkapan dan kerusakan seluruh korpus, dan itulah
+alat yang dipakai untuk menyatakan korpus utuh sesudah kampanye dihentikan lalu
+dilanjutkan.
+
+6. Yang TIDAK punya korpus
+---------------------------
+
+``network_scaling/`` hanya berisi ``gen_configs.py``, ``main_nego_ns.py``, dan
+README. ``configs/`` maupun folder datanya kosong, jadi eksperimen network
+scaling **belum pernah dijalankan di project ini**. Hasil network scaling yang
+dibahas laporan berasal dari project lama ``nyoba_general``.
+
+Aturan penulisan laporan beserta peta korpus versi naratifnya ada di
+``laporan/aturan_penulisan_laporan.md``.
 """
 
 from __future__ import annotations
